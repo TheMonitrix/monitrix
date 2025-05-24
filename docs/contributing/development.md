@@ -32,10 +32,13 @@ Before diving in, make sure you have these tools installed:
 
 1. Open your terminal
 2. Clone the repository:
+
    ```bash
    git clone https://github.com/ezeslucky/monitrix.git
    ```
+
 3. Navigate to the project:
+
    ```bash
    cd signoz
    ```
@@ -53,6 +56,7 @@ make devenv-clickhouse
 ```
 
 This command:
+
 - Starts Clickhouse in a single-shard, single-replica cluster
 - Sets up Zookeeper
 - Runs the latest schema migrations
@@ -60,11 +64,13 @@ This command:
 ### 2. Starting the Backend
 
 1. Run the backend server:
+
    ```bash
    make go-run-community
    ```
 
 2. Verify it's working:
+
    ```bash
    curl http://localhost:8080/api/v1/health
    ```
@@ -76,16 +82,19 @@ This command:
 ### 3. Setting up the Frontend
 
 1. Install dependencies:
+
    ```bash
    yarn install
    ```
 
 2. Create a `.env` file in the `frontend` directory:
+
    ```env
    FRONTEND_API_ENDPOINT=http://localhost:8080
    ```
 
 3. Start the development server:
+
    ```bash
    yarn dev
    ```
