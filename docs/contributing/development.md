@@ -40,7 +40,7 @@ Before diving in, make sure you have these tools installed:
 3. Navigate to the project:
 
    ```bash
-   cd signoz
+   cd monitrix
    ```
 
 ## How do I run it locally?
