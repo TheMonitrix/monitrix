@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/modules/savedview"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 type module struct {

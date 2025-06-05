@@ -5,9 +5,9 @@ import (
 	"database/sql"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/quickfiltertypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types/quickfiltertypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 type store struct {

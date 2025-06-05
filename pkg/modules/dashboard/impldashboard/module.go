@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/modules/dashboard"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/modules/dashboard"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types"
 	"github.com/google/uuid"
 )
 

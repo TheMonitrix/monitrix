@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/ezeslucky/monitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 type Module interface {

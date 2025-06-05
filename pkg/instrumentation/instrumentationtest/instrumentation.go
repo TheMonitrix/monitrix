@@ -5,7 +5,7 @@ import (
 	"log/slog"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/instrumentation"
+	"github.com/ezeslucky/monitrix/pkg/instrumentation"
 	"github.com/prometheus/client_golang/prometheus"
 	sdkmetric "go.opentelemetry.io/otel/metric"
 	noopmetric "go.opentelemetry.io/otel/metric/noop"

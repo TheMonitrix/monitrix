@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/modules/dashboard"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/modules/dashboard"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
 	"github.com/gorilla/mux"
 )
 

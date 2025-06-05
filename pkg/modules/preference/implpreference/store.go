@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/preferencetypes"
+	"github.com/ezeslucky/monitrix/pkg/types/preferencetypes"
 )
 
 type store struct {

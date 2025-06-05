@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/config"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/config/envprovider"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/config/envprovider"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
