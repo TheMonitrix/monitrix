@@ -1,6 +1,6 @@
 # Development Guide
 
-Welcome! This guide will help you set up your local development environment for SigNoz. Let's get you started! 🚀
+Welcome! This guide will help you set up your local development environment for Monitrix. Let's get you started! 🚀
 
 ## What do I need?
 
@@ -45,7 +45,7 @@ Before diving in, make sure you have these tools installed:
 
 ## How do I run it locally?
 
-SigNoz has three main components: Clickhouse, Backend, and Frontend. Let's set them up one by one.
+Monitrix has three main components: Clickhouse, Backend, and Frontend. Let's set them up one by one.
 
 ### 1. Setting up Clickhouse
 
