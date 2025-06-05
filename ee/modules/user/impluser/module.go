@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/SigNoz/signoz/ee/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	baseimpl "github.com/SigNoz/signoz/pkg/modules/user/impluser"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/ee/query-service/constants"
+	"github.com/ezeslucky/monitrixitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/user"
+	baseimpl "github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
 	"go.uber.org/zap"
 )
 

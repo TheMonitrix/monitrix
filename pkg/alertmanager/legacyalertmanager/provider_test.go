@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrix/pkg/types/alertmanagertypes"
 	"github.com/prometheus/alertmanager/api/v2/models"
 	"github.com/stretchr/testify/assert"
 )

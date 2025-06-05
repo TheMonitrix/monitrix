@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/http/render"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
 	"github.com/gorilla/mux"
 )
 

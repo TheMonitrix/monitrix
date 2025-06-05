@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/SigNoz/signoz/pkg/http/render"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
 	"github.com/gorilla/mux"
 )
 

@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/SigNoz/signoz/pkg/alertmanager/alertmanagerserver"
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager/alertmanagerserver"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/types/alertmanagertypes"
 )
 
 type Service struct {

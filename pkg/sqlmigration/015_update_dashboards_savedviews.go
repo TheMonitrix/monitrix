@@ -3,9 +3,9 @@ package sqlmigration
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"
 )

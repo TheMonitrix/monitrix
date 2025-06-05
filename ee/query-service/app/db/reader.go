@@ -5,11 +5,11 @@ import (
 
 	"github.com/ClickHouse/clickhouse-go/v2"
 
-	"github.com/SigNoz/signoz/pkg/cache"
-	"github.com/SigNoz/signoz/pkg/prometheus"
-	basechr "github.com/SigNoz/signoz/pkg/query-service/app/clickhouseReader"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrix/pkg/prometheus"
+	basechr "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/clickhouseReader"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
 )
 
 type ClickhouseReader struct {

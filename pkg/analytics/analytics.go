@@ -3,8 +3,8 @@ package analytics
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/types/analyticstypes"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/types/analyticstypes"
 )
 
 type Analytics interface {

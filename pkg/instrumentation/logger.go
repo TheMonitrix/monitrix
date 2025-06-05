@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/SigNoz/signoz/pkg/instrumentation/loghandler"
+	"github.com/ezeslucky/monitrix/pkg/instrumentation/loghandler"
 )
 
 func NewLogger(config Config, wrappers ...loghandler.Wrapper) *slog.Logger {

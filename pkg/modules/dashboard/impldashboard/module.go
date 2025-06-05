@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/modules/dashboard"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/dashboard"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
 	"github.com/google/uuid"
 )
 

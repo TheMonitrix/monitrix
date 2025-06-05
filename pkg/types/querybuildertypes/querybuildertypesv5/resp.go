@@ -3,8 +3,8 @@ package querybuildertypesv5
 import (
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 )
 
 type QueryRangeResponse struct {

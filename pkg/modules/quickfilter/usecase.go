@@ -2,9 +2,9 @@ package quickfilter
 
 import (
 	"context"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/types/quickfiltertypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/quickfiltertypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type Usecase interface {

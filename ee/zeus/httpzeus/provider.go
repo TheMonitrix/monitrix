@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/http/client"
-	"github.com/SigNoz/signoz/pkg/zeus"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/http/client"
+	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
 	"github.com/tidwall/gjson"
 )
 
@@ -27,7 +27,7 @@ func NewProviderFactory() factory.ProviderFactory[zeus.Zeus, zeus.Config] {
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config zeus.Config) (zeus.Zeus, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/SigNoz/signoz/ee/zeus/httpzeus")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrix/ee/zeus/httpzeus")
 
 	httpClient, err := client.New(
 		settings.Logger(),

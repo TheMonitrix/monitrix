@@ -222,7 +222,7 @@
 		"npm-run-all": "latest",
 		"portfinder-sync": "^0.0.2",
 		"postcss": "8.4.38",
-		"prettier": "2.2.1",
+		"prettier": "3.5.3",
 		"prop-types": "15.8.1",
 		"raw-loader": "4.0.2",
 		"react-hooks-testing-library": "0.6.0",

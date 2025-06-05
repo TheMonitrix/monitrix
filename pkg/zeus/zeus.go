@@ -3,7 +3,7 @@ package zeus
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/errors"
 )
 
 var (

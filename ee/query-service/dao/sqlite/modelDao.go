@@ -1,9 +1,9 @@
 package sqlite
 
 import (
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	"github.com/SigNoz/signoz/pkg/modules/user/impluser"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
 )
 
 type modelDao struct {

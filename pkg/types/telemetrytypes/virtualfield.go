@@ -1,8 +1,8 @@
 package telemetrytypes
 
 import (
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 )
 

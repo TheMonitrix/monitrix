@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	grammar "github.com/SigNoz/signoz/pkg/parser/grammar"
-	qbtypes "github.com/SigNoz/signoz/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	grammar "github.com/ezeslucky/monitrixitrix/pkg/parser/grammar"
+	qbtypes "github.com/ezeslucky/monitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/antlr4-go/antlr/v4"
 
 	sqlbuilder "github.com/huandu/go-sqlbuilder"

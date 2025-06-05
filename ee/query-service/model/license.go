@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	basemodel "github.com/SigNoz/signoz/pkg/query-service/model"
+	basemodel "github.com/ezeslucky/monitrix/pkg/query-service/model"
 	"github.com/pkg/errors"
 )
 

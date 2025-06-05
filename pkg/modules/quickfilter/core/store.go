@@ -3,10 +3,10 @@ package core
 import (
 	"context"
 	"database/sql"
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types/quickfiltertypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/quickfiltertypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type store struct {

@@ -5,15 +5,15 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/modules/organization"
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/utils"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/pipelinetypes"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrix/pkg/modules/organization"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/ruletypes"
 )
 
 func NewTestIntegrationsManager(t *testing.T) (*Manager, sqlstore.SQLStore) {

@@ -9,15 +9,15 @@ import (
 
 	"sync"
 
-	baseconstants "github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/zeus"
+	baseconstants "github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
 
-	validate "github.com/SigNoz/signoz/ee/query-service/integrations/signozio"
-	"github.com/SigNoz/signoz/ee/query-service/model"
-	basemodel "github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/query-service/telemetry"
+	validate "github.com/ezeslucky/monitrixitrix/ee/query-service/integrations/signozio"
+	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
+	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/telemetry"
 	"go.uber.org/zap"
 )
 

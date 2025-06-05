@@ -13,9 +13,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/app/integrations/messagingQueues/kafka"
-	queues2 "github.com/SigNoz/signoz/pkg/query-service/app/integrations/messagingQueues/queues"
-	"github.com/SigNoz/signoz/pkg/query-service/app/integrations/thirdPartyApi"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/integrations/messagingQueues/kafka"
+	queues2 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations/messagingQueues/queues"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations/thirdPartyApi"
 
 	"github.com/SigNoz/govaluate"
 	"github.com/gorilla/mux"
@@ -23,16 +23,16 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/SigNoz/signoz/pkg/query-service/app/metrics"
-	"github.com/SigNoz/signoz/pkg/query-service/app/queryBuilder"
-	"github.com/SigNoz/signoz/pkg/query-service/common"
-	baseconstants "github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/postprocess"
-	"github.com/SigNoz/signoz/pkg/query-service/utils"
-	querytemplate "github.com/SigNoz/signoz/pkg/query-service/utils/queryTemplate"
-	chVariables "github.com/SigNoz/signoz/pkg/variables/clickhouse"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/metrics"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/queryBuilder"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/common"
+	baseconstants "github.com/ezeslucky/monitrixitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils"
+	querytemplate "github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/queryTemplate"
+	chVariables "github.com/ezeslucky/monitrixitrix/pkg/variables/clickhouse"
 )
 
 var allowedFunctions = []string{"count", "ratePerSec", "sum", "avg", "min", "max", "p50", "p90", "p95", "p99"}

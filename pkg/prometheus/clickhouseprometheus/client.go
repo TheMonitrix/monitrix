@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/telemetrystore"
 	"github.com/prometheus/prometheus/prompb"
 	"github.com/prometheus/prometheus/storage"
 	"github.com/prometheus/prometheus/storage/remote"

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
 )
 
 var (

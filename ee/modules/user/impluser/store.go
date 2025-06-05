@@ -3,10 +3,10 @@ package impluser
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	baseimpl "github.com/SigNoz/signoz/pkg/modules/user/impluser"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	baseimpl "github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 )
 
 type store struct {

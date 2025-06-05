@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/types/ssotypes"
+	"github.com/ezeslucky/monitrix/pkg/types/ssotypes"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 	saml2 "github.com/russellhaering/gosaml2"

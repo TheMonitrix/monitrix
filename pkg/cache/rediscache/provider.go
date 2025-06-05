@@ -8,11 +8,11 @@ import (
 
 	"fmt"
 
-	"github.com/SigNoz/signoz/pkg/cache"
-	errorsV2 "github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/types/cachetypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/cache"
+	errorsV2 "github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/types/cachetypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/go-redis/redis/v8"
 	"go.uber.org/zap"
 )

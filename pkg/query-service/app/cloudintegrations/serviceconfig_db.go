@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 )
 
 type ServiceConfigDatabase interface {

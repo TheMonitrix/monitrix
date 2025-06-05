@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"slices"
 
-	schema "github.com/SigNoz/signoz-otel-collector/cmd/signozschemamigrator/schema_migrator"
-	qbtypes "github.com/SigNoz/signoz/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	schema "github.com/ezeslucky/monitrix-otel-collector/cmd/signozschemamigrator/schema_migrator"
+	qbtypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
 	"github.com/huandu/go-sqlbuilder"
 )
 

@@ -3,8 +3,8 @@ package integrations
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
 )
 
 type InstalledIntegrationsRepo interface {

@@ -7,10 +7,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
 	"go.uber.org/zap"
 )
 

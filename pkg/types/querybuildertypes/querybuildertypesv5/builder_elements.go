@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/types/metrictypes"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/metrictypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 )
 
 type Step struct{ time.Duration }

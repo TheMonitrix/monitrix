@@ -7,12 +7,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/cache"
-	"github.com/SigNoz/signoz/pkg/errors"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/labels"
-	"github.com/SigNoz/signoz/pkg/types/cachetypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/errors"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils/labels"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/cachetypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

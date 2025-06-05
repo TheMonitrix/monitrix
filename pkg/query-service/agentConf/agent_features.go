@@ -1,6 +1,6 @@
 package agentConf
 
-import "github.com/SigNoz/signoz/pkg/query-service/model"
+import "github.com/ezeslucky/monitrix/pkg/query-service/model"
 
 // Interface for features implemented via agent config.
 // Eg: ingestion side signal pre-processing features like log processing pipelines etc

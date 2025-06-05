@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
 )
 
 var (

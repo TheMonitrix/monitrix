@@ -6,9 +6,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/query-service/queryBuilderToExpr"
-	"github.com/SigNoz/signoz/pkg/types/pipelinetypes"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/queryBuilderToExpr"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
 	"github.com/antonmedv/expr"
 	"github.com/antonmedv/expr/ast"
 	"github.com/antonmedv/expr/parser"

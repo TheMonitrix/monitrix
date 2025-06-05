@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/modules/savedview"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/modules/savedview"
+	v3 "github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type module struct {

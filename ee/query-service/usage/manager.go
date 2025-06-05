@@ -14,11 +14,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SigNoz/signoz/ee/query-service/dao"
-	"github.com/SigNoz/signoz/ee/query-service/license"
-	"github.com/SigNoz/signoz/ee/query-service/model"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/encryption"
-	"github.com/SigNoz/signoz/pkg/zeus"
+	"github.com/ezeslucky/monitrix/ee/query-service/dao"
+	"github.com/ezeslucky/monitrixitrix/ee/query-service/license"
+	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/encryption"
+	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
 )
 
 const (

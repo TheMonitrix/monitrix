@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
 )
 
 func ValidateUpdateFieldPayload(field *model.UpdateField) error {

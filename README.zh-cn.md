@@ -12,9 +12,9 @@
 
 <h3 align="center">
   <a href="https://signoz.io/docs"><b>文档</b></a> •
-  <a href="https://github.com/SigNoz/signoz/blob/main/README.zh-cn.md"><b>中文ReadMe</b></a> •
-  <a href="https://github.com/SigNoz/signoz/blob/main/README.de-de.md"><b>德文ReadMe</b></a> •
-  <a href="https://github.com/SigNoz/signoz/blob/main/README.pt-br.md"><b>葡萄牙语ReadMe</b></a> •
+  <a href="https://github.com/ezeslucky/monitrix/blob/main/README.zh-cn.md"><b>中文ReadMe</b></a> •
+  <a href="https://github.com/ezeslucky/monitrix/blob/main/README.de-de.md"><b>德文ReadMe</b></a> •
+  <a href="https://github.com/ezeslucky/monitrix/blob/main/README.pt-br.md"><b>葡萄牙语ReadMe</b></a> •
   <a href="https://signoz.io/slack"><b>Slack 社区</b></a> •
   <a href="https://twitter.com/SigNozHq"><b>Twitter</b></a>
 </h3>
@@ -218,10 +218,10 @@ Jaeger 仅仅是一个分布式追踪系统。 但是 SigNoz 可以提供 metric
 
 加入 [slack 社区](https://signoz.io/slack) 去了解更多关于分布式追踪、可观测性系统 。或者与 SigNoz 其他用户和贡献者交流。
 
-如果你有任何想法、问题、或者任何反馈， 请通过 [Github Discussions](https://github.com/SigNoz/signoz/discussions) 分享。
+如果你有任何想法、问题、或者任何反馈， 请通过 [Github Discussions](https://github.com/ezeslucky/monitrix/discussions) 分享。
 
 不管怎么样，感谢这个项目的所有贡献者!
 
-<a href="https://github.com/signoz/signoz/graphs/contributors">
+<a href="https://github.com/ezeslucky/monitrix/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=signoz/signoz" />
 </a>

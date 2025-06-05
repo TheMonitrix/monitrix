@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/go-redis/redismock/v8"
 	"github.com/stretchr/testify/assert"
 )

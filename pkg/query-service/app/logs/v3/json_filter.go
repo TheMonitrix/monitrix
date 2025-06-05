@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/utils"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
 )
 
 const (

@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/http/render"
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
 	"github.com/gorilla/mux"
 )
 

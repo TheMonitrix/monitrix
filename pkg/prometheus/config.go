@@ -1,6 +1,6 @@
 package prometheus
 
-import "github.com/SigNoz/signoz/pkg/factory"
+import "github.com/ezeslucky/monitrix/pkg/factory"
 
 type ActiveQueryTrackerConfig struct {
 	Enabled       bool   `mapstructure:"enabled"`

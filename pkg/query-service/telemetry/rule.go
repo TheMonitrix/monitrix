@@ -6,11 +6,11 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types/alertmanagertypes"
-	"github.com/SigNoz/signoz/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
 	"go.uber.org/zap"
 )
 

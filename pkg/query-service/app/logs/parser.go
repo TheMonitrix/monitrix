@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
 )
 
 var operatorMapping = map[string]string{

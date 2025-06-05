@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/authtypes"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

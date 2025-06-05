@@ -5,12 +5,12 @@ import (
 	"math"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/cache"
-	"github.com/SigNoz/signoz/pkg/query-service/interfaces"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/postprocess"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/labels"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/interfaces"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

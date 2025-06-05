@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/query-service/model/metrics_explorer"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/metrics_explorer"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
 )
 
 // skipKey is an optional parameter to skip processing of a specific key

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/config/configtest"
+	"github.com/ezeslucky/monitrix/pkg/config/configtest"
 	"github.com/stretchr/testify/assert"
 )
 

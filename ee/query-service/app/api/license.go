@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/SigNoz/signoz/ee/query-service/constants"
-	"github.com/SigNoz/signoz/ee/query-service/integrations/signozio"
-	"github.com/SigNoz/signoz/ee/query-service/model"
-	"github.com/SigNoz/signoz/pkg/http/render"
-	"github.com/SigNoz/signoz/pkg/query-service/telemetry"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/ee/query-service/constants"
+	"github.com/ezeslucky/monitrixitrix/ee/query-service/integrations/signozio"
+	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/telemetry"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
 )
 
 type DayWiseBreakdown struct {

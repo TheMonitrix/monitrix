@@ -10,13 +10,13 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/alertmanager"
-	"github.com/SigNoz/signoz/pkg/alertmanager/alertmanagerbatcher"
-	"github.com/SigNoz/signoz/pkg/alertmanager/alertmanagerstore/sqlalertmanagerstore"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types/alertmanagertypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager/alertmanagerbatcher"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager/alertmanagerstore/sqlalertmanagerstore"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/tidwall/gjson"
 )
 
@@ -67,7 +67,7 @@ func NewFactory(sqlstore sqlstore.SQLStore) factory.ProviderFactory[alertmanager
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config alertmanager.Config, sqlstore sqlstore.SQLStore) (*provider, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/SigNoz/signoz/pkg/alertmanager/legacyalertmanager")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrix/pkg/alertmanager/legacyalertmanager")
 	configStore := sqlalertmanagerstore.NewConfigStore(sqlstore)
 
 	return &provider{

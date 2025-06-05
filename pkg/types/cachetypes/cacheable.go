@@ -4,7 +4,7 @@ import (
 	"encoding"
 	"reflect"
 
-	"github.com/SigNoz/signoz/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/errors"
 )
 
 type Cacheable interface {

@@ -3,8 +3,8 @@ package rules
 import (
 	"testing"
 
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
 )
 
 func TestBaseRule_RequireMinPoints(t *testing.T) {

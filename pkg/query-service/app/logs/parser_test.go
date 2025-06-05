@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"slices"
 
-	"github.com/SigNoz/signoz/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/errors"
 	"github.com/uptrace/bun"
 )
 

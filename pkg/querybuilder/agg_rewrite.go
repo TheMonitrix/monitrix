@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	chparser "github.com/AfterShip/clickhouse-sql-parser/parser"
-	"github.com/SigNoz/signoz/pkg/errors"
-	qbtypes "github.com/SigNoz/signoz/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	qbtypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"github.com/huandu/go-sqlbuilder"
 )
 

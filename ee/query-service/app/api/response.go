@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	baseapp "github.com/SigNoz/signoz/pkg/query-service/app"
-	basemodel "github.com/SigNoz/signoz/pkg/query-service/model"
+	baseapp "github.com/ezeslucky/monitrix/pkg/query-service/app"
+	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
 )
 
 func RespondError(w http.ResponseWriter, apiErr basemodel.BaseApiError, data interface{}) {

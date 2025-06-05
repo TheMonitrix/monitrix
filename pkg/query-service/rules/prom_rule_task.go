@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/common"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/common"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	opentracing "github.com/opentracing/opentracing-go"
 	plabels "github.com/prometheus/prometheus/model/labels"
 	"go.uber.org/zap"

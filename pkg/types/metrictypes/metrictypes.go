@@ -1,7 +1,7 @@
 package metrictypes
 
 import (
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 // Temporality is the temporality of the metric specified in OTLP data model

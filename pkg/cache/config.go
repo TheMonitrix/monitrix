@@ -3,7 +3,7 @@ package cache
 import (
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 	go_cache "github.com/patrickmn/go-cache"
 )
 

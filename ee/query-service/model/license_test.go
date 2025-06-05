@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

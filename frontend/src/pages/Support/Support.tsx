@@ -55,7 +55,7 @@ const supportChannels = [
 		name: 'Github',
 		icon: <Github />,
 		title: 'Create an issue on GitHub to report bugs or request new features.',
-		url: 'https://github.com/SigNoz/signoz/issues',
+		url: 'https://github.com/ezeslucky/monitrix/issues',
 		btnText: 'Create issue',
 	},
 	{

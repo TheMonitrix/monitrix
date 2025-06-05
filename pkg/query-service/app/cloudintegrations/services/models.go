@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/types"
 )
 
 type Metadata struct {

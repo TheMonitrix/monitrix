@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/config"
-	"github.com/SigNoz/signoz/pkg/config/envprovider"
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/config"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/config/envprovider"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/factory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
-	qbtypes "github.com/SigNoz/signoz/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
+	qbtypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
 	"github.com/huandu/go-sqlbuilder"
 	"go.uber.org/zap"
 )

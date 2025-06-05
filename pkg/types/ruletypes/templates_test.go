@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/utils/times"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils/times"
 	"github.com/stretchr/testify/require"
 )
 

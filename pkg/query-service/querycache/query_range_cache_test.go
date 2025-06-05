@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/cache"
-	"github.com/SigNoz/signoz/pkg/cache/cachetest"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/querycache"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/cache/cachetest"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/querycache"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

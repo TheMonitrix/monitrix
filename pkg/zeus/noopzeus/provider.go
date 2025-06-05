@@ -3,9 +3,9 @@ package noopzeus
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/zeus"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
 )
 
 type provider struct{}

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type Module interface {

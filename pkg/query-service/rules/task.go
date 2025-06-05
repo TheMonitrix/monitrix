@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	ruletypes "github.com/ezeslucky/monitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 )
 
 type TaskType string

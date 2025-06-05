@@ -4,7 +4,7 @@
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
   Thanks for opening this issue. A team member should give feedback soon.
-  In the meantime, feel free to check out the [contributing guidelines](https://github.com/signoz/signoz/blob/main/CONTRIBUTING.md).
+  In the meantime, feel free to check out the [contributing guidelines](https://github.com/ezeslucky/monitrix/blob/main/CONTRIBUTING.md).
 
 
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome

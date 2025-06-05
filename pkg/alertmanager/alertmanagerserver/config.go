@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrix/pkg/types/alertmanagertypes"
 	"github.com/prometheus/alertmanager/config"
 	"github.com/prometheus/common/model"
 )

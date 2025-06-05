@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"
 )

@@ -1,6 +1,6 @@
 package querybuildertypesv5
 
-import "github.com/SigNoz/signoz/pkg/valuer"
+import "github.com/ezeslucky/monitrix/pkg/valuer"
 
 type FunctionName struct {
 	valuer.String

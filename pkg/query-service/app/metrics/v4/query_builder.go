@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/app/metrics"
-	metricsV3 "github.com/SigNoz/signoz/pkg/query-service/app/metrics/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/app/metrics/v4/cumulative"
-	"github.com/SigNoz/signoz/pkg/query-service/app/metrics/v4/delta"
-	"github.com/SigNoz/signoz/pkg/query-service/app/metrics/v4/helpers"
-	"github.com/SigNoz/signoz/pkg/query-service/common"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/metrics"
+	metricsV3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/metrics/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/metrics/v4/cumulative"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/metrics/v4/delta"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/metrics/v4/helpers"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
 )
 
 // PrepareMetricQuery prepares the query to be used for fetching metrics

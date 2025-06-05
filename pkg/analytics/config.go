@@ -3,7 +3,7 @@ package analytics
 import (
 	"fmt"
 
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 )
 
 // This will be set via ldflags at build time.

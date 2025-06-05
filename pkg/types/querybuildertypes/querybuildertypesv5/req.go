@@ -3,7 +3,7 @@ package querybuildertypesv5
 import (
 	"encoding/json"
 
-	"github.com/SigNoz/signoz/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/errors"
 )
 
 type QueryEnvelope struct {

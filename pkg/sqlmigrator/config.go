@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 )
 
 type Config struct {

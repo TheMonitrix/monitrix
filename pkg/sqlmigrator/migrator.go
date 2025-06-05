@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
 	"github.com/uptrace/bun/migrate"
 )
 
@@ -33,7 +33,7 @@ func New(ctx context.Context, providerSettings factory.ProviderSettings, sqlstor
 			// and the migration will be retried.
 			migrate.WithMarkAppliedOnSuccess(true),
 		),
-		settings: factory.NewScopedProviderSettings(providerSettings, "github.com/SigNoz/signoz/pkg/sqlmigrator"),
+		settings: factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigrator"),
 		config:   config,
 		dialect:  sqlstore.BunDB().Dialect().Name().String(),
 	}

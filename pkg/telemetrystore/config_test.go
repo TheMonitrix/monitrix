@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/config"
-	"github.com/SigNoz/signoz/pkg/config/envprovider"
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/config"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/config/envprovider"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@ ARG TARGETARCH
 ARG ZEUSURL
 
 # This path is important for stacktraces
-WORKDIR $GOPATH/src/github.com/signoz/signoz
+WORKDIR $GOPATH/src/github.com/ezeslucky/monitrix
 WORKDIR /root
 
 RUN set -eux; \

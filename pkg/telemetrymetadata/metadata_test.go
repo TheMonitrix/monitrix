@@ -6,12 +6,12 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/telemetrylogs"
-	"github.com/SigNoz/signoz/pkg/telemetrymetrics"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
-	"github.com/SigNoz/signoz/pkg/telemetrystore/telemetrystoretest"
-	"github.com/SigNoz/signoz/pkg/telemetrytraces"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/telemetrylogs"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrymetrics"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore/telemetrystoretest"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrytraces"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
 	cmock "github.com/srikanthccv/ClickHouse-go-mock"
 )
 

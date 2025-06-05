@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/sqlstore/sqlstoretest"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
-	"github.com/SigNoz/signoz/pkg/telemetrystore/telemetrystoretest"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore/sqlstoretest"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore/telemetrystoretest"
 	"github.com/stretchr/testify/assert"
 )
 

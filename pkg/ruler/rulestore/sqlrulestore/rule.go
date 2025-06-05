@@ -3,10 +3,10 @@ package sqlrulestore
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"github.com/jmoiron/sqlx"
 	"go.uber.org/zap"
 )

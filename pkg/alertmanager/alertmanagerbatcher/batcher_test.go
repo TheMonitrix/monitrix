@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrix/pkg/types/alertmanagertypes"
 	"github.com/stretchr/testify/assert"
 )
 

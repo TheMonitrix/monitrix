@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"regexp"
 
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/telemetry"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/telemetry"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
 	"github.com/gorilla/mux"
 	"go.uber.org/zap"
 )

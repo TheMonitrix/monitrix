@@ -11,14 +11,14 @@ export function ComingSoon(): JSX.Element {
 		<Tooltip
 			title={
 				<div>
-					Join our Slack community for more details:{' '}
+					Follow in  X for more details:{' '}
 					<a
-						href="https://signoz.io/slack"
+						href="https://x.com/ezeslucky"
 						rel="noopener noreferrer"
 						target="_blank"
 						onClick={(e): void => e.stopPropagation()}
 					>
-						SigNoz Community
+						ezeslucky
 					</a>
 				</div>
 			}

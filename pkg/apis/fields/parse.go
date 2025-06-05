@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 func parseFieldKeyRequest(r *http.Request) (*telemetrytypes.FieldKeySelector, error) {

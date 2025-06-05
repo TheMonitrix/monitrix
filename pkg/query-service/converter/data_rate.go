@@ -55,7 +55,7 @@ func (*dataRateConverter) Name() string {
 }
 
 func FromDataRateUnit(u Unit) float64 {
-	// See https://github.com/SigNoz/signoz/blob/5a81f5f90b34845f5b4b3bdd46acf29d04bf3987/frontend/src/container/NewWidget/RightContainer/dataFormatCategories.ts#L62-L85
+	// See https://github.com/ezeslucky/monitrix/blob/5a81f5f90b34845f5b4b3bdd46acf29d04bf3987/frontend/src/container/NewWidget/RightContainer/dataFormatCategories.ts#L62-L85
 	switch u {
 	case "binBps": // bytes/sec(IEC)
 		return BytePerSecond

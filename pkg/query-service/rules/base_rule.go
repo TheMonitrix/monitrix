@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/converter"
-	"github.com/SigNoz/signoz/pkg/query-service/interfaces"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	qslabels "github.com/SigNoz/signoz/pkg/query-service/utils/labels"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/converter"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/interfaces"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	qslabels "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils/labels"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

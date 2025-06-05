@@ -1,7 +1,7 @@
 package web
 
 import (
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 )
 
 // Config holds the configuration for web.

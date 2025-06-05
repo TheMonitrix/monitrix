@@ -2,10 +2,10 @@ package quickfiltertypes
 
 import (
 	"encoding/json"
-	"github.com/SigNoz/signoz/pkg/errors"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 	"time"
 )

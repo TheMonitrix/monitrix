@@ -1,6 +1,6 @@
 # Deploy
 
-Check that you have cloned [signoz/signoz](https://github.com/signoz/signoz)
+Check that you have cloned [signoz/signoz](https://github.com/ezeslucky/monitrix)
 and currently are in `signoz/deploy` folder.
 
 ## Docker

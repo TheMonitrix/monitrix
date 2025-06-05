@@ -525,15 +525,15 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 		<div className="workspace-restricted-banner">
 			{activeLicenseV3?.state === LicenseState.TERMINATED && (
 				<>
-					Your SigNoz license is terminated, enterprise features have been disabled.
+					Your Monitrix license is terminated, enterprise features have been disabled.
 					Please contact support at{' '}
-					<a href="mailto:support@signoz.io">support@signoz.io</a> for new license
+					<a href="mailto:aurobindolife888@gmail.com">aurobindolife888@gmail.com</a> for new license
 				</>
 			)}
 			{activeLicenseV3?.state === LicenseState.EXPIRED && (
 				<>
-					Your SigNoz license has expired. Please contact support at{' '}
-					<a href="mailto:support@signoz.io">support@signoz.io</a> for renewal to
+					Your Monitrix license has expired. Please contact support at{' '}
+					<a href="mailto:aurobindolife888@gmail.com">aurobindolife888@gmail.com</a> for renewal to
 					avoid termination of license as per our{' '}
 					<a
 						href="https://signoz.io/terms-of-service"
@@ -546,8 +546,8 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 			)}
 			{activeLicenseV3?.state === LicenseState.CANCELLED && (
 				<>
-					Your SigNoz license is cancelled. Please contact support at{' '}
-					<a href="mailto:support@signoz.io">support@signoz.io</a> for reactivation
+					Your Monitrix license is cancelled. Please contact support at{' '}
+					<a href="mailto:aurobindolife888@gmail.com">aurobindolife888@gmail.com</a> for reactivation
 					to avoid termination of license as per our{' '}
 					<a
 						href="https://signoz.io/terms-of-service"
@@ -561,9 +561,9 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 
 			{activeLicenseV3?.state === LicenseState.DEFAULTED && (
 				<>
-					Your SigNoz license is defaulted. Please clear the bill to continue using
+					Your Monitrix license is defaulted. Please clear the bill to continue using
 					the enterprise features. Contact support at{' '}
-					<a href="mailto:support@signoz.io">support@signoz.io</a> to avoid
+					<a href="mailto:aurobindolife888@gmail.com">aurobindolife888@gmail.com</a> to avoid
 					termination of license as per our{' '}
 					<a
 						href="https://signoz.io/terms-of-service"
@@ -577,8 +577,8 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 
 			{activeLicenseV3?.state === LicenseState.EVALUATION_EXPIRED && (
 				<>
-					Your SigNoz trial has ended. Please contact support at{' '}
-					<a href="mailto:support@signoz.io">support@signoz.io</a> for next steps to
+					Your Monitrix trial has ended. Please contact support at{' '}
+					<a href="mailto:aurobindolife888@gmail.com">aurobindolife888@gmail.com</a> for next steps to
 					avoid termination of license as per our{' '}
 					<a
 						href="https://signoz.io/terms-of-service"
@@ -609,7 +609,7 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 							<a className="upgrade-link" onClick={handleUpgrade}>
 								upgrade
 							</a>
-							to continue using SigNoz features.
+							to continue using Monitrix features.
 						</span>
 					) : (
 						'Please contact your administrator for upgrading to a paid plan.'
@@ -635,7 +635,7 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 							<a className="upgrade-link" onClick={handleFailedPayment}>
 								pay the bill
 							</a>
-							to continue using SigNoz features.
+							to continue using Monitrix features.
 						</span>
 					) : (
 						' Please contact your administrator to pay the bill.'

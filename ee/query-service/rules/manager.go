@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	basemodel "github.com/SigNoz/signoz/pkg/query-service/model"
-	baserules "github.com/SigNoz/signoz/pkg/query-service/rules"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/labels"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	basemodel "github.com/ezeslucky/monitrix/pkg/query-service/model"
+	baserules "github.com/ezeslucky/monitrixitrix/pkg/query-service/rules"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
+	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 )

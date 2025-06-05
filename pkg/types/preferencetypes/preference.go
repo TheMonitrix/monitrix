@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
 	"github.com/uptrace/bun"
 )
 

@@ -60,13 +60,13 @@ function DataSourceInfo({
 	const renderNotSendingData = (): JSX.Element => (
 		<>
 			<Typography className="welcome-title">
-				Hello there, Welcome to your SigNoz workspace
+				Hello there, Welcome to your Monitrix workspace
 			</Typography>
 
 			<Typography className="welcome-description">
 				You’re not sending any data yet. <br />
-				SigNoz is so much better with your data ⎯ start by sending your telemetry
-				data to SigNoz.
+				Monitrix is so much better with your data ⎯ start by sending your telemetry
+				data to Monitrix.
 			</Typography>
 
 			<Card className="welcome-card">
@@ -153,7 +153,7 @@ function DataSourceInfo({
 	const renderDataReceived = (): JSX.Element => (
 		<>
 			<Typography className="welcome-title">
-				Hello there, Welcome to your SigNoz workspace
+				Hello there, Welcome to your Monitrix workspace
 			</Typography>
 
 			{!isErrorDeploymentsData && deploymentsData && (

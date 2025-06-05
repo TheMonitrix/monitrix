@@ -1,7 +1,7 @@
 package cloudintegrations
 
 import (
-	"github.com/SigNoz/signoz/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/errors"
 )
 
 var (

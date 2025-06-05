@@ -6,14 +6,14 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/SigNoz/signoz/ee/query-service/anomaly"
-	"github.com/SigNoz/signoz/pkg/http/render"
-	baseapp "github.com/SigNoz/signoz/pkg/query-service/app"
-	"github.com/SigNoz/signoz/pkg/query-service/app/queryBuilder"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/ee/query-service/anomaly"
+	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
+	baseapp "github.com/ezeslucky/monitrixitrix/pkg/query-service/app"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/queryBuilder"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

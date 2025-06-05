@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/prometheus"
+	"github.com/ezeslucky/monitrix/pkg/prometheus"
 	"github.com/prometheus/prometheus/storage"
 	"github.com/prometheus/prometheus/tsdb"
 )

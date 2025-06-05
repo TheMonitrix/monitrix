@@ -3,7 +3,7 @@ package telemetrytests
 import (
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
 )
 
 // Helper function to limit string length for display

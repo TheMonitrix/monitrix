@@ -3,7 +3,7 @@ package apiserver
 import (
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 )
 
 // Config holds the configuration for config.

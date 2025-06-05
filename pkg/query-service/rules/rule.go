@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/labels"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils/labels"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
 )
 
 // A Rule encapsulates a vector expression which is evaluated at a specified

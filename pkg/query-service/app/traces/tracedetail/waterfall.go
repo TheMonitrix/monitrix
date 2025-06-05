@@ -4,7 +4,7 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
 )
 
 var (

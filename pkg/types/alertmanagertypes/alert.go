@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/errors"
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/strfmt"
 	v2 "github.com/prometheus/alertmanager/api/v2"

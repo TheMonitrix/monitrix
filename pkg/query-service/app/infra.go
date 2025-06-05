@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/SigNoz/signoz/pkg/http/render"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 )
 
 func (aH *APIHandler) getHostAttributeKeys(w http.ResponseWriter, r *http.Request) {

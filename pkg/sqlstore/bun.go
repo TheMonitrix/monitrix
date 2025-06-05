@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/schema"
 )

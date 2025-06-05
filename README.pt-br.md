@@ -146,11 +146,11 @@ Você pode encontrar a documentação em https://signoz.io/docs/. Se você tiver
 
 Junte-se a [comunidade no Slack](https://signoz.io/slack) para saber mais sobre rastreamento distribuído, observabilidade ou SigNoz e para se conectar com outros usuários e colaboradores. 
 
-Se você tiver alguma ideia, pergunta ou feedback, compartilhe em nosso [Github Discussões](https://github.com/SigNoz/signoz/discussions)
+Se você tiver alguma ideia, pergunta ou feedback, compartilhe em nosso [Github Discussões](https://github.com/ezeslucky/monitrix/discussions)
 
 Como sempre, obrigado aos nossos incríveis colaboradores! 
 
-<a href="https://github.com/signoz/signoz/graphs/contributors">
+<a href="https://github.com/ezeslucky/monitrix/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=signoz/signoz" />
 </a>
 

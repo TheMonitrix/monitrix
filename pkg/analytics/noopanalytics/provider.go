@@ -3,9 +3,9 @@ package noopanalytics
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/analytics"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/types/analyticstypes"
+	"github.com/ezeslucky/monitrix/pkg/analytics"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/types/analyticstypes"
 )
 
 type provider struct {
@@ -18,7 +18,7 @@ func NewProviderFactory() factory.ProviderFactory[analytics.Analytics, analytics
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config analytics.Config) (analytics.Analytics, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/SigNoz/signoz/pkg/analytics/noopanalytics")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrix/pkg/analytics/noopanalytics")
 
 	return &provider{
 		settings: settings,

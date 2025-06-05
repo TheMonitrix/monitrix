@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/SigNoz/signoz/ee/query-service/model"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
 )

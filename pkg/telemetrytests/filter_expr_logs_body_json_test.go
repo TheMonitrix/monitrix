@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/querybuilder"
-	"github.com/SigNoz/signoz/pkg/telemetrylogs"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/querybuilder"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrylogs"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
 	"github.com/huandu/go-sqlbuilder"
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 // FieldContext is the context of the field being queried. It is expected to be used to disambiguate b/w

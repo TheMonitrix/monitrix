@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/factory/factorytest"
-	"github.com/SigNoz/signoz/pkg/sqlmigration"
-	"github.com/SigNoz/signoz/pkg/sqlmigrator"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/sqlstore/sqlitesqlstore"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory/factorytest"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigrator"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore/sqlitesqlstore"
 	_ "github.com/mattn/go-sqlite3"
 )
 

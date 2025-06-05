@@ -3,11 +3,11 @@ package sqlmigration
 import (
 	"context"
 	"database/sql"
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types/quickfiltertypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/quickfiltertypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"
 )

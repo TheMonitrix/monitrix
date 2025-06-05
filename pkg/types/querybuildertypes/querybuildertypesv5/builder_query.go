@@ -1,7 +1,7 @@
 package querybuildertypesv5
 
 import (
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
 )
 
 type QueryBuilderQuery struct {

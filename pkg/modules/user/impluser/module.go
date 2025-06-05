@@ -9,14 +9,14 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/query-service/telemetry"
-	smtpservice "github.com/SigNoz/signoz/pkg/query-service/utils/smtpService"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/telemetry"
+	smtpservice "github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/utils/smtpService"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

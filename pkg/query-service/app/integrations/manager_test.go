@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/modules/organization/implorganization"
-	"github.com/SigNoz/signoz/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrix/pkg/modules/organization/implorganization"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/modules/user/impluser"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 )

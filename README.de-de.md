@@ -13,9 +13,9 @@
 
 <h3 align="center">
   <a href="https://signoz.io/docs"><b>Dokumentation</b></a> &bull;
-  <a href="https://github.com/SigNoz/signoz/blob/main/README.md"><b>Readme auf Englisch </b></a> &bull;
-  <a href="https://github.com/SigNoz/signoz/blob/main/README.zh-cn.md"><b>ReadMe auf Chinesisch</b></a> &bull;
-  <a href="https://github.com/SigNoz/signoz/blob/main/README.pt-br.md"><b>ReadMe auf Portugiesisch</b></a> &bull;
+  <a href="https://github.com/ezeslucky/monitrix/blob/main/README.md"><b>Readme auf Englisch </b></a> &bull;
+  <a href="https://github.com/ezeslucky/monitrix/blob/main/README.zh-cn.md"><b>ReadMe auf Chinesisch</b></a> &bull;
+  <a href="https://github.com/ezeslucky/monitrix/blob/main/README.pt-br.md"><b>ReadMe auf Portugiesisch</b></a> &bull;
   <a href="https://signoz.io/slack"><b>Slack Community</b></a> &bull;
   <a href="https://twitter.com/SigNozHq"><b>Twitter</b></a>
 </h3>
@@ -207,10 +207,10 @@ Du findest unsere Dokumentation unter https://signoz.io/docs/. Falls etwas unver
 
 Werde Teil der [slack community](https://signoz.io/slack) um mehr über verteilte Einzelschritt-Fehlersuche, Messung von Systemzuständen oder SigNoz zu erfahren und sich mit anderen Nutzern und Mitwirkenden in Verbindung zu setzen.
 
-Falls du irgendwelche Ideen, Fragen oder Feedback hast, kannst du sie gerne über unsere [Github Discussions](https://github.com/SigNoz/signoz/discussions) mit uns teilen.
+Falls du irgendwelche Ideen, Fragen oder Feedback hast, kannst du sie gerne über unsere [Github Discussions](https://github.com/ezeslucky/monitrix/discussions) mit uns teilen.
 
 Wie immer, Dank an unsere großartigen Mitwirkenden!
 
-<a href="https://github.com/signoz/signoz/graphs/contributors">
+<a href="https://github.com/ezeslucky/monitrix/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=signoz/signoz" />
 </a>

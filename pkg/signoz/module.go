@@ -1,19 +1,19 @@
 package signoz
 
 import (
-	"github.com/SigNoz/signoz/pkg/modules/apdex"
-	"github.com/SigNoz/signoz/pkg/modules/apdex/implapdex"
-	"github.com/SigNoz/signoz/pkg/modules/dashboard"
-	"github.com/SigNoz/signoz/pkg/modules/dashboard/impldashboard"
-	"github.com/SigNoz/signoz/pkg/modules/organization"
-	"github.com/SigNoz/signoz/pkg/modules/organization/implorganization"
-	"github.com/SigNoz/signoz/pkg/modules/preference"
-	"github.com/SigNoz/signoz/pkg/modules/preference/implpreference"
-	"github.com/SigNoz/signoz/pkg/modules/savedview"
-	"github.com/SigNoz/signoz/pkg/modules/savedview/implsavedview"
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types/preferencetypes"
+	"github.com/ezeslucky/monitrix/pkg/modules/apdex"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/apdex/implapdex"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/dashboard"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/dashboard/impldashboard"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/organization"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/organization/implorganization"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/preference"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/preference/implpreference"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/savedview"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/savedview/implsavedview"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/preferencetypes"
 )
 
 type Modules struct {

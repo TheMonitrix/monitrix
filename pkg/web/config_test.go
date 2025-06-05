@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/config"
-	"github.com/SigNoz/signoz/pkg/config/envprovider"
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/config"
+	"github.com/ezeslucky/monitrixitrix/pkg/config/envprovider"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

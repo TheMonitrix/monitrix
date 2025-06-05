@@ -3,9 +3,9 @@ package cachetest
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/cache"
-	"github.com/SigNoz/signoz/pkg/cache/memorycache"
-	"github.com/SigNoz/signoz/pkg/factory/factorytest"
+	"github.com/ezeslucky/monitrix/pkg/cache"
+	"github.com/ezeslucky/monitrix/pkg/cache/memorycache"
+	"github.com/ezeslucky/monitrix/pkg/factory/factorytest"
 )
 
 type provider struct{}

@@ -1,7 +1,7 @@
 package querybuilder
 
 import (
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 var (

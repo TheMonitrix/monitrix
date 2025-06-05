@@ -329,7 +329,7 @@ export default function Home(): JSX.Element {
 				{!isBannerDismissed && (
 					<div className="home-container-banner">
 						<div className="home-container-banner-content">
-							Big news: SigNoz Cloud Teams plan now starting at just $49/Month -
+							Big news: Monitrix Cloud Teams plan now starting at just $49/Month -
 							<a
 								href="https://signoz.io/blog/cloud-teams-plan-now-at-49usd/"
 								target="_blank"

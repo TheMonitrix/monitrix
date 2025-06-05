@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"encoding/json"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/modules/preference"
-	"github.com/SigNoz/signoz/pkg/types/preferencetypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/preference"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/preferencetypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 // Do not take inspiration from this code, it is a work in progress. See Organization module for a better implementation.

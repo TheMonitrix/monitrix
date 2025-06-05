@@ -3,9 +3,9 @@ package sqlmigration
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"
 )

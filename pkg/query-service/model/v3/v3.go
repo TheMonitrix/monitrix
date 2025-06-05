@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

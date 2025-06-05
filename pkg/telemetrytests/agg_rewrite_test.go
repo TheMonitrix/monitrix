@@ -3,10 +3,10 @@ package telemetrytests
 import (
 	"testing"
 
-	"github.com/SigNoz/signoz/pkg/querybuilder"
-	"github.com/SigNoz/signoz/pkg/telemetrylogs"
-	"github.com/SigNoz/signoz/pkg/telemetrytraces"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/querybuilder"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrylogs"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrytraces"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
 	"github.com/stretchr/testify/require"
 )
 

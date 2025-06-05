@@ -3,7 +3,7 @@ package thirdPartyApi
 import (
 	"testing"
 
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
 	"github.com/stretchr/testify/assert"
 )
 

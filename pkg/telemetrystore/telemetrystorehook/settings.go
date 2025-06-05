@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 
 	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/query-service/common"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
 )
 
 type provider struct {

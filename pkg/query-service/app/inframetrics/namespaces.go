@@ -5,13 +5,13 @@ import (
 	"math"
 	"sort"
 
-	"github.com/SigNoz/signoz/pkg/query-service/app/metrics/v4/helpers"
-	"github.com/SigNoz/signoz/pkg/query-service/common"
-	"github.com/SigNoz/signoz/pkg/query-service/interfaces"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/postprocess"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/metrics/v4/helpers"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/interfaces"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/valuer"
 	"golang.org/x/exp/slices"
 )
 

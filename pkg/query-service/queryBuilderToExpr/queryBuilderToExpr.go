@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
 	expr "github.com/antonmedv/expr"
 	"go.uber.org/zap"
 )

@@ -3,7 +3,7 @@ package thirdPartyApi
 import (
 	"net"
 
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
 )
 
 const (

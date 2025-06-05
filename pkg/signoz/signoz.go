@@ -3,20 +3,20 @@ package signoz
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/alertmanager"
-	"github.com/SigNoz/signoz/pkg/cache"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/instrumentation"
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	"github.com/SigNoz/signoz/pkg/prometheus"
-	"github.com/SigNoz/signoz/pkg/sqlmigration"
-	"github.com/SigNoz/signoz/pkg/sqlmigrator"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
-	"github.com/SigNoz/signoz/pkg/version"
-	"github.com/SigNoz/signoz/pkg/zeus"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/instrumentation"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/prometheus"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigrator"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/version"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/zeus"
 
-	"github.com/SigNoz/signoz/pkg/web"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/web"
 )
 
 type SigNoz struct {

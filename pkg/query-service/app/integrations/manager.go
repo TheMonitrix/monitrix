@@ -6,13 +6,13 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/query-service/utils"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/pipelinetypes"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/valuer"
 )
 
 type IntegrationAuthor struct {

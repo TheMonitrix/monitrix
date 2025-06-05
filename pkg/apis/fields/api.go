@@ -5,13 +5,13 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/SigNoz/signoz/pkg/http/render"
-	"github.com/SigNoz/signoz/pkg/telemetrylogs"
-	"github.com/SigNoz/signoz/pkg/telemetrymetadata"
-	"github.com/SigNoz/signoz/pkg/telemetrymetrics"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
-	"github.com/SigNoz/signoz/pkg/telemetrytraces"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrix/pkg/telemetrylogs"
+	"github.com/ezeslucky/monitrix/pkg/telemetrymetadata"
+	"github.com/ezeslucky/monitrix/pkg/telemetrymetrics"
+	"github.com/ezeslucky/monitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrix/pkg/telemetrytraces"
+	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
 	"go.uber.org/zap"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/SigNoz/signoz/ee/query-service/model"
-	"github.com/SigNoz/signoz/pkg/zeus"
+	"github.com/ezeslucky/monitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
 	"github.com/tidwall/gjson"
 )
 

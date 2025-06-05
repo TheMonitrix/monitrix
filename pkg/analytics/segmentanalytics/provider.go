@@ -3,9 +3,9 @@ package segmentanalytics
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/analytics"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/types/analyticstypes"
+	"github.com/ezeslucky/monitrix/pkg/analytics"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/types/analyticstypes"
 	segment "github.com/segmentio/analytics-go/v3"
 )
 
@@ -20,7 +20,7 @@ func NewProviderFactory() factory.ProviderFactory[analytics.Analytics, analytics
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config analytics.Config) (analytics.Analytics, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/SigNoz/signoz/pkg/analytics/segmentanalytics")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrix/pkg/analytics/segmentanalytics")
 
 	return &provider{
 		settings: settings,

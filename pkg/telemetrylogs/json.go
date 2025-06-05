@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	qbtypes "github.com/SigNoz/signoz/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/SigNoz/signoz/pkg/types/telemetrytypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	qbtypes "github.com/ezeslucky/monitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 )
 
 func parseStrValue(valueStr string, operator qbtypes.FilterOperator) (telemetrytypes.FieldDataType, any) {

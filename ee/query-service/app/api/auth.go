@@ -11,9 +11,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SigNoz/signoz/ee/query-service/constants"
-	"github.com/SigNoz/signoz/ee/query-service/model"
-	"github.com/SigNoz/signoz/pkg/http/render"
+	"github.com/ezeslucky/monitrix/ee/query-service/constants"
+	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
 )
 
 func parseRequest(r *http.Request, req interface{}) error {

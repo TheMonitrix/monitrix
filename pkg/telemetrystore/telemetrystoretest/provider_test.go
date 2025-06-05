@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/SigNoz/signoz/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrix/pkg/telemetrystore"
 	"github.com/stretchr/testify/assert"
 )
 

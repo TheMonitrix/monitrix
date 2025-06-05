@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/instrumentation/instrumentationtest"
-	"github.com/SigNoz/signoz/pkg/sqlmigration"
-	"github.com/SigNoz/signoz/pkg/sqlmigration/sqlmigrationtest"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/sqlstore/sqlstoretest"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/instrumentation/instrumentationtest"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration/sqlmigrationtest"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore/sqlstoretest"
 	"github.com/stretchr/testify/require"
 )
 

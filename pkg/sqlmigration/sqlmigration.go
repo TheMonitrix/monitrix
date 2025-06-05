@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/SigNoz/signoz/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"
 )

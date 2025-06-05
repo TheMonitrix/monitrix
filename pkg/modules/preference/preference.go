@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/SigNoz/signoz/pkg/types/preferencetypes"
+	"github.com/ezeslucky/monitrix/pkg/types/preferencetypes"
 )
 
 type Module interface {

@@ -3,14 +3,14 @@ package auth
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/alertmanager"
-	"github.com/SigNoz/signoz/pkg/modules/organization"
-	"github.com/SigNoz/signoz/pkg/modules/quickfilter"
-	"github.com/SigNoz/signoz/pkg/modules/user"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/organization"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/quickfilter"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
 )
 
 func RegisterOrgAndFirstUser(ctx context.Context, req *types.PostableRegisterOrgAndAdmin, organizationModule organization.Module, userModule user.Module) (*types.User, *model.ApiError) {

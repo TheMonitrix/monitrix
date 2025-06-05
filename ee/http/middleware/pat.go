@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	eeTypes "github.com/SigNoz/signoz/ee/types"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/types/authtypes"
+	eeTypes "github.com/ezeslucky/monitrix/ee/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
 	"go.uber.org/zap"
 )
 

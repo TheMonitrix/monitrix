@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/alertmanager"
-	"github.com/SigNoz/signoz/pkg/alertmanager/alertmanagerstore/sqlalertmanagerstore"
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
-	"github.com/SigNoz/signoz/pkg/types/alertmanagertypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager"
+	"github.com/ezeslucky/monitrix/pkg/alertmanager/alertmanagerstore/sqlalertmanagerstore"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 type provider struct {
@@ -29,7 +29,7 @@ func NewFactory(sqlstore sqlstore.SQLStore) factory.ProviderFactory[alertmanager
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config alertmanager.Config, sqlstore sqlstore.SQLStore) (*provider, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/SigNoz/signoz/pkg/alertmanager/signozalertmanager")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrix/pkg/alertmanager/signozalertmanager")
 	configStore := sqlalertmanagerstore.NewConfigStore(sqlstore)
 	stateStore := sqlalertmanagerstore.NewStateStore(sqlstore)
 

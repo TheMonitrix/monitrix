@@ -57,7 +57,7 @@ function Create({
 	return (
 		<div>
 			<Typography.Text italic>
-				SigNoz supports the following single sign-on services (SSO). Get started
+				Monitrix supports the following single sign-on services (SSO). Get started
 				with setting your project’s SSO below
 			</Typography.Text>
 

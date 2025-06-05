@@ -3,7 +3,7 @@ package formatter
 import (
 	"fmt"
 
-	"github.com/SigNoz/signoz/pkg/query-service/converter"
+	"github.com/ezeslucky/monitrix/pkg/query-service/converter"
 	"github.com/dustin/go-humanize"
 )
 

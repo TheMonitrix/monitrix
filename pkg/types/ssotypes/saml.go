@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
 	saml2 "github.com/russellhaering/gosaml2"
 	dsig "github.com/russellhaering/goxmldsig"
 	"go.uber.org/zap"

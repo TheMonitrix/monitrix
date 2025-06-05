@@ -8,9 +8,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/SigNoz/signoz-otel-collector/utils/fingerprint"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix-otel-collector/utils/fingerprint"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
 	"go.uber.org/zap"
 )
 

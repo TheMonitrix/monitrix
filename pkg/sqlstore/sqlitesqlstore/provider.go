@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/factory"
-	"github.com/SigNoz/signoz/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
 	"github.com/jmoiron/sqlx"
 	sqlite3 "github.com/mattn/go-sqlite3"
 	"github.com/uptrace/bun"
@@ -37,7 +37,7 @@ func NewFactory(hookFactories ...factory.ProviderFactory[sqlstore.SQLStoreHook, 
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config sqlstore.Config, hooks ...sqlstore.SQLStoreHook) (sqlstore.SQLStore, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/SigNoz/signoz/pkg/sqlitesqlstore")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrixitrix/pkg/sqlitesqlstore")
 
 	sqldb, err := sql.Open("sqlite3", "file:"+config.Sqlite.Path+"?_foreign_keys=true")
 	if err != nil {

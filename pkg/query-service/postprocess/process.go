@@ -2,8 +2,8 @@ package postprocess
 
 import (
 	"github.com/SigNoz/govaluate"
-	"github.com/SigNoz/signoz/pkg/query-service/app/queryBuilder"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/queryBuilder"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
 	"go.uber.org/zap"
 )
 

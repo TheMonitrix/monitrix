@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/url"
 
-	eeTypes "github.com/SigNoz/signoz/ee/types"
-	basemodel "github.com/SigNoz/signoz/pkg/query-service/model"
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	eeTypes "github.com/ezeslucky/monitrix/ee/types"
+	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/google/uuid"
 )
 

@@ -11,24 +11,24 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SigNoz/signoz/ee/query-service/anomaly"
-	"github.com/SigNoz/signoz/pkg/cache"
-	"github.com/SigNoz/signoz/pkg/query-service/common"
-	"github.com/SigNoz/signoz/pkg/query-service/model"
-	ruletypes "github.com/SigNoz/signoz/pkg/types/ruletypes"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/ee/query-service/anomaly"
+	"github.com/ezeslucky/monitrixitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 
-	querierV2 "github.com/SigNoz/signoz/pkg/query-service/app/querier/v2"
-	"github.com/SigNoz/signoz/pkg/query-service/app/queryBuilder"
-	"github.com/SigNoz/signoz/pkg/query-service/interfaces"
-	v3 "github.com/SigNoz/signoz/pkg/query-service/model/v3"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/labels"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/times"
-	"github.com/SigNoz/signoz/pkg/query-service/utils/timestamp"
+	querierV2 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/querier/v2"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/queryBuilder"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/interfaces"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/times"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/timestamp"
 
-	"github.com/SigNoz/signoz/pkg/query-service/formatter"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/formatter"
 
-	baserules "github.com/SigNoz/signoz/pkg/query-service/rules"
+	baserules "github.com/ezeslucky/monitrixitrix/pkg/query-service/rules"
 
 	yaml "gopkg.in/yaml.v2"
 )

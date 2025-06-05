@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"slices"
 
-	"github.com/SigNoz/signoz/pkg/errors"
-	"github.com/SigNoz/signoz/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
 	"github.com/golang-jwt/jwt/v5"
 )
 

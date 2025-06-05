@@ -3,7 +3,7 @@ package fileprovider
 import (
 	"context"
 
-	"github.com/SigNoz/signoz/pkg/config"
+	"github.com/ezeslucky/monitrix/pkg/config"
 	koanfyaml "github.com/knadh/koanf/parsers/yaml"
 	koanffile "github.com/knadh/koanf/providers/file"
 )

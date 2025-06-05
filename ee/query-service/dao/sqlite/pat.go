@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SigNoz/signoz/ee/query-service/model"
-	"github.com/SigNoz/signoz/ee/types"
-	basemodel "github.com/SigNoz/signoz/pkg/query-service/model"
-	ossTypes "github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/ee/types"
+	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	ossTypes "github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 
 	"go.uber.org/zap"
 )

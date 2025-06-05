@@ -5,8 +5,8 @@ import (
 	"encoding/base64"
 	"time"
 
-	"github.com/SigNoz/signoz/pkg/types"
-	"github.com/SigNoz/signoz/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 )
 

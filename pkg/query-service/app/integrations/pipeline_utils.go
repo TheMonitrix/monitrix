@@ -3,8 +3,8 @@ package integrations
 import (
 	"strings"
 
-	"github.com/SigNoz/signoz/pkg/query-service/constants"
-	"github.com/SigNoz/signoz/pkg/types/pipelinetypes"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
 )
 
 const IntegrationPipelineIdSeparator string = "--"

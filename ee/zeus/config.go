@@ -5,7 +5,7 @@ import (
 	neturl "net/url"
 	"sync"
 
-	"github.com/SigNoz/signoz/pkg/zeus"
+	"github.com/ezeslucky/monitrix/pkg/zeus"
 )
 
 // This will be set via ldflags at build time.

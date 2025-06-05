@@ -3,7 +3,7 @@ package opamp
 import (
 	"context"
 
-	model "github.com/SigNoz/signoz/pkg/query-service/app/opamp/model"
+	model "github.com/ezeslucky/monitrix/pkg/query-service/app/opamp/model"
 	"github.com/open-telemetry/opamp-go/protobufs"
 	"github.com/open-telemetry/opamp-go/server"
 	"github.com/open-telemetry/opamp-go/server/types"
