@@ -2,8 +2,8 @@ package v4
 
 import (
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 // if the field is timestamp/id/value we don't need to enrich

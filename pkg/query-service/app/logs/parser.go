@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 var operatorMapping = map[string]string{

@@ -5,7 +5,7 @@ import (
 	"database/sql"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/schema"
 )

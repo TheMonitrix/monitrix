@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory/factorytest"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigrator"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore/sqlitesqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory/factorytest"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigrator"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore/sqlitesqlstore"
 	_ "github.com/mattn/go-sqlite3"
 )
 

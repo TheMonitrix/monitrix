@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/google/uuid"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"

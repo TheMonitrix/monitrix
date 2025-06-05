@@ -1,9 +1,9 @@
 package querybuilder
 
 import (
-	grammar "github.com/ezeslucky/monitrix/pkg/parser/grammar"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/antlr4-go/antlr/v4"
+	grammar "github.com/ezeslucky/monitrix/pkg/parser/grammar"
+	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
 )
 
 // QueryStringToKeysSelectors converts a query string to a list of field key selectors

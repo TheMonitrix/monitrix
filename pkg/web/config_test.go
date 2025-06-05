@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/config"
-	"github.com/ezeslucky/monitrixitrix/pkg/config/envprovider"
-	"github.com/ezeslucky/monitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/config/envprovider"
+	"github.com/ezeslucky/monitrix/pkg/factory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

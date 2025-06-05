@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
-	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils/labels"
+	ruletypes "github.com/ezeslucky/monitrix/pkg/types/ruletypes"
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 )

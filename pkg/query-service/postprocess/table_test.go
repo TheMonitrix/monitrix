@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
 )
 
 func TestSortRows(t *testing.T) {

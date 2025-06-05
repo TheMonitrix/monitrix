@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/ezeslucky/monitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 func (aH *APIHandler) getHostAttributeKeys(w http.ResponseWriter, r *http.Request) {

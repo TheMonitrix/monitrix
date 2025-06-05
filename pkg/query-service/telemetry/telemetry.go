@@ -16,12 +16,12 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/interfaces"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/version"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/interfaces"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/version"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
 )
 
 type logging struct {
@@ -22,7 +22,7 @@ func NewLoggingFactory() factory.ProviderFactory[telemetrystore.TelemetryStoreHo
 
 func NewLogging(ctx context.Context, providerSettings factory.ProviderSettings, config telemetrystore.Config) (telemetrystore.TelemetryStoreHook, error) {
 	return &logging{
-		logger: factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore/telemetrystorehook").Logger(),
+		logger: factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrix/pkg/telemetrystore/telemetrystorehook").Logger(),
 		level:  slog.LevelDebug,
 	}, nil
 }

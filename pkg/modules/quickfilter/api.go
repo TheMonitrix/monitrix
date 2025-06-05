@@ -2,12 +2,13 @@ package quickfilter
 
 import (
 	"encoding/json"
-	"github.com/ezeslucky/monitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/quickfiltertypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
-	"github.com/gorilla/mux"
 	"net/http"
+
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/quickfiltertypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/gorilla/mux"
 )
 
 type API interface {

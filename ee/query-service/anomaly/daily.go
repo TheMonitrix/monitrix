@@ -4,8 +4,8 @@ import (
 	"context"
 
 	querierV2 "github.com/ezeslucky/monitrix/pkg/query-service/app/querier/v2"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/queryBuilder"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/queryBuilder"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 type DailyProvider struct {

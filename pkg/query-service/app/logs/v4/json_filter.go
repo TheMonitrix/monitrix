@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	logsV3 "github.com/ezeslucky/monitrix/pkg/query-service/app/logs/v3"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 var jsonLogOperators = map[v3.FilterOperator]string{

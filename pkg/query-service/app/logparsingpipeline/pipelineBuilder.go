@@ -6,12 +6,12 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/queryBuilderToExpr"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
 	"github.com/antonmedv/expr"
 	"github.com/antonmedv/expr/ast"
 	"github.com/antonmedv/expr/parser"
+	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/queryBuilderToExpr"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/pipelinetypes"
 	"github.com/pkg/errors"
 )
 

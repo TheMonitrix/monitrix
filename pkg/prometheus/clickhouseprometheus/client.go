@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/telemetrystore"
 	"github.com/prometheus/prometheus/prompb"
 	"github.com/prometheus/prometheus/storage"
 	"github.com/prometheus/prometheus/storage/remote"

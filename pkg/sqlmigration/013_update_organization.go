@@ -6,7 +6,7 @@ import (
 	"errors"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"
 )

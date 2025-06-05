@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	schema "github.com/ezeslucky/monitrix-otel-collector/cmd/signozschemamigrator/schema_migrator"
-	qbtypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	qbtypes "github.com/ezeslucky/monitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/huandu/go-sqlbuilder"
 )
 

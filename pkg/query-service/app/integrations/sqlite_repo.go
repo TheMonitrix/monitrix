@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 )
 

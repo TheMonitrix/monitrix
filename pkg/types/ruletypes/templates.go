@@ -17,7 +17,7 @@ import (
 	"golang.org/x/text/cases"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/common"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils/times"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/times"
 )
 
 // this file contains all the methods and structs

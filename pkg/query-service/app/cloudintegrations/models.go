@@ -2,8 +2,8 @@ package cloudintegrations
 
 import (
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/cloudintegrations/services"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/cloudintegrations/services"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 )
 
 type ServiceSummary struct {

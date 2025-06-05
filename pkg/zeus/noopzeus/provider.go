@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/zeus"
 )
 
 type provider struct{}

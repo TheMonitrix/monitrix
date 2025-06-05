@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/queryBuilderToExpr"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/queryBuilderToExpr"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 	"github.com/pkg/errors"
 	"github.com/uptrace/bun"
 )

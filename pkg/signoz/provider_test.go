@@ -5,9 +5,9 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/ezeslucky/monitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore/sqlstoretest"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore/telemetrystoretest"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore/sqlstoretest"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore/telemetrystoretest"
 	"github.com/stretchr/testify/assert"
 )
 

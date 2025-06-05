@@ -6,12 +6,12 @@ import (
 	"sort"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/app/metrics/v4/helpers"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/common"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/interfaces"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/postprocess"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrix/pkg/query-service/interfaces"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"golang.org/x/exp/slices"
 )
 

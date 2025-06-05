@@ -7,14 +7,14 @@ import (
 	"sync"
 
 	logsV4 "github.com/ezeslucky/monitrix/pkg/query-service/app/logs/v4"
-	metricsV3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/metrics/v3"
-	tracesV4 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/traces/v4"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/common"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/postprocess"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/querycache"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/valuer"
+	metricsV3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/metrics/v3"
+	tracesV4 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/traces/v4"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/constants"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/querycache"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

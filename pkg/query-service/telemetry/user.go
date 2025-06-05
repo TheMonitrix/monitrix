@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 )
 
 type TelemetryUser struct {

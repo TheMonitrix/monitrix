@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrix/pkg/sqlmigration"
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/migrate"
 )

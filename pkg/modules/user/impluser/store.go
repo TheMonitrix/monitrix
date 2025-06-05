@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type Store struct {

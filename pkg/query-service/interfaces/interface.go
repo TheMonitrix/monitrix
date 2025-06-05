@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/metrics_explorer"
-	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/querycache"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model/metrics_explorer"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/querycache"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/prometheus/prometheus/promql"
 	"github.com/prometheus/prometheus/util/stats"
 )

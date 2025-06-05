@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/ezeslucky/monitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
 	"github.com/gorilla/mux"
 )
 

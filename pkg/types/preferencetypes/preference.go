@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 	"github.com/uptrace/bun"
 )
 

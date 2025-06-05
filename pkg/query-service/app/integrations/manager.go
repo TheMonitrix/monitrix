@@ -7,12 +7,12 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
-	ruletypes "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/ruletypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/pipelinetypes"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 )
 
 type IntegrationAuthor struct {

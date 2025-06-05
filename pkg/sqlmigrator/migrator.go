@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
 	"github.com/uptrace/bun/migrate"
 )
 
@@ -33,7 +33,7 @@ func New(ctx context.Context, providerSettings factory.ProviderSettings, sqlstor
 			// and the migration will be retried.
 			migrate.WithMarkAppliedOnSuccess(true),
 		),
-		settings: factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigrator"),
+		settings: factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrix/pkg/sqlmigrator"),
 		config:   config,
 		dialect:  sqlstore.BunDB().Dialect().Name().String(),
 	}

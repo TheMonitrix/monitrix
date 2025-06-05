@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/alertmanager/alertmanagerserver"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/alertmanagertypes"
 	"github.com/prometheus/alertmanager/config"
 	"github.com/tidwall/gjson"
 	"github.com/uptrace/bun"

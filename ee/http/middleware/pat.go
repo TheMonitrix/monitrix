@@ -5,9 +5,9 @@ import (
 	"time"
 
 	eeTypes "github.com/ezeslucky/monitrix/ee/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
 	"go.uber.org/zap"
 )
 

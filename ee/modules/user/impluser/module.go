@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/constants"
-	"github.com/ezeslucky/monitrixitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrix/pkg/modules/user"
-	baseimpl "github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/modules/user"
+	baseimpl "github.com/ezeslucky/monitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
 	"go.uber.org/zap"
 )
 

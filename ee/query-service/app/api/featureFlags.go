@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/constants"
-	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	basemodel "github.com/ezeslucky/monitrix/pkg/query-service/model"
 	"go.uber.org/zap"
 )
 

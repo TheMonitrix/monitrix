@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/apdex"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/modules/apdex"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
 )
 
 type handler struct {

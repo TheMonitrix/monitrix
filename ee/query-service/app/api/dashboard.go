@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
 	"github.com/gorilla/mux"
 )
 

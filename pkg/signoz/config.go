@@ -9,18 +9,18 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/alertmanager"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/apiserver"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/cache"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/config"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/instrumentation"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/prometheus"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigrator"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/version"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/web"
+	"github.com/ezeslucky/monitrixitrix/pkg/apiserver"
+	"github.com/ezeslucky/monitrixitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrix/pkg/config"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/instrumentation"
+	"github.com/ezeslucky/monitrixitrix/pkg/prometheus"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigrator"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrix/pkg/version"
+	"github.com/ezeslucky/monitrixitrix/pkg/web"
 )
 
 // Config defines the entire input configuration of signoz.
@@ -184,6 +184,6 @@ func mergeAndEnsureBackwardCompatibility(config *Config, deprecatedFlags Depreca
 	}
 
 	if deprecatedFlags.Config != "" {
-		fmt.Println("[Deprecated] flag --config is deprecated for passing prometheus config. The flag will be used for passing the entire SigNoz config. More details can be found at https://github.com/ezeslucky/monitrixitrixitrix/issues/6805.")
+		fmt.Println("[Deprecated] flag --config is deprecated for passing prometheus config. The flag will be used for passing the entire SigNoz config. More details can be found at https://github.com/ezeslucky/monitrixitrix/issues/6805.")
 	}
 }

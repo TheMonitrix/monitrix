@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/app/integrations/messagingQueues/kafka"
-	queues2 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations/messagingQueues/queues"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations/thirdPartyApi"
+	queues2 "github.com/ezeslucky/monitrix/pkg/query-service/app/integrations/messagingQueues/queues"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/integrations/thirdPartyApi"
 
 	"github.com/SigNoz/govaluate"
 	"github.com/gorilla/mux"
@@ -23,16 +23,16 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/metrics"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/queryBuilder"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/common"
-	baseconstants "github.com/ezeslucky/monitrixitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/postprocess"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils"
-	querytemplate "github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/queryTemplate"
-	chVariables "github.com/ezeslucky/monitrixitrix/pkg/variables/clickhouse"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/metrics"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/queryBuilder"
+	"github.com/ezeslucky/monitrix/pkg/query-service/common"
+	baseconstants "github.com/ezeslucky/monitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils"
+	querytemplate "github.com/ezeslucky/monitrix/pkg/query-service/utils/queryTemplate"
+	chVariables "github.com/ezeslucky/monitrix/pkg/variables/clickhouse"
 )
 
 var allowedFunctions = []string{"count", "ratePerSec", "sum", "avg", "min", "max", "p50", "p90", "p95", "p99"}

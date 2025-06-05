@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils/labels"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
 )
 
 // this file contains common structs and methods used by

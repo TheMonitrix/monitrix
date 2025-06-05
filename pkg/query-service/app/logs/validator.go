@@ -5,8 +5,8 @@ import (
 	"regexp"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
 )
 
 func ValidateUpdateFieldPayload(field *model.UpdateField) error {

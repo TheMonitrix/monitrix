@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	baseimpl "github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	baseimpl "github.com/ezeslucky/monitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types"
 )
 
 type store struct {

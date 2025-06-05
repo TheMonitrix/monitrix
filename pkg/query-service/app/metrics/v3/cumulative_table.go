@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/app/metrics/v4/helpers"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/constants"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 // This logic is little convoluted for a reason.

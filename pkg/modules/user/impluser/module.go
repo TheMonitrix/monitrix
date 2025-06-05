@@ -10,13 +10,13 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/user"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/telemetry"
-	smtpservice "github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/query-service/utils/smtpService"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/query-service/constants"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/query-service/telemetry"
+	smtpservice "github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/query-service/utils/smtpService"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

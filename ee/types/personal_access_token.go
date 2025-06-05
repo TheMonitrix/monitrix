@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 )
 

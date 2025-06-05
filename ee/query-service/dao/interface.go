@@ -5,9 +5,9 @@ import (
 	"net/url"
 
 	eeTypes "github.com/ezeslucky/monitrix/ee/types"
-	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	basemodel "github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/google/uuid"
 )
 

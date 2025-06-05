@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/ezeslucky/monitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type Module interface {

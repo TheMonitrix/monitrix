@@ -12,8 +12,8 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/constants"
-	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
 )
 
 func parseRequest(r *http.Request, req interface{}) error {

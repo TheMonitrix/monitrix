@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
-	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/jmoiron/sqlx"
 	"go.uber.org/zap"
 )

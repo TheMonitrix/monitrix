@@ -7,9 +7,9 @@ import (
 
 	chparser "github.com/AfterShip/clickhouse-sql-parser/parser"
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	qbtypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	qbtypes "github.com/ezeslucky/monitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/huandu/go-sqlbuilder"
 )
 

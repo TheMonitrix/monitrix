@@ -2,10 +2,11 @@ package helpers
 
 import (
 	"fmt"
-	"github.com/ezeslucky/monitrix/pkg/query-service/utils"
 	"strings"
 
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils"
+
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
 )
 
 // groupingSets returns a string of comma separated tags for group by clause

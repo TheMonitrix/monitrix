@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/cache"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/interfaces"
-	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/postprocess"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/interfaces"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils/labels"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

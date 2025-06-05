@@ -2,9 +2,10 @@ package quickfilter
 
 import (
 	"context"
+
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/quickfiltertypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/quickfiltertypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type Usecase interface {

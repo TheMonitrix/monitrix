@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 var resourceLogOperators = map[v3.FilterOperator]string{

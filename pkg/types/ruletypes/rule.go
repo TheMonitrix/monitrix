@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 )
 

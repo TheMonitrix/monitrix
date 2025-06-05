@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type Module interface {

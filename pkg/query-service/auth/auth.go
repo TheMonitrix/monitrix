@@ -4,13 +4,13 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/alertmanager"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/organization"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/quickfilter"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/organization"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/quickfilter"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 )
 
 func RegisterOrgAndFirstUser(ctx context.Context, req *types.PostableRegisterOrgAndAdmin, organizationModule organization.Module, userModule user.Module) (*types.User, *model.ApiError) {

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
 )
 
 type args struct {

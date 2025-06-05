@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrix/pkg/modules/user"
-	"github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrix/pkg/types"
 	"github.com/gorilla/mux"
 )
 

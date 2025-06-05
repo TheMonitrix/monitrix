@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/metrictypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/metrictypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 )
 
 type Step struct{ time.Duration }

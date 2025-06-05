@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
+	"github.com/ezeslucky/monitrix/pkg/zeus"
 	"github.com/tidwall/gjson"
 )
 

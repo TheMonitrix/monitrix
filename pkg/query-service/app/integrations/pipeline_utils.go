@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/pipelinetypes"
 )
 
 const IntegrationPipelineIdSeparator string = "--"

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/modules/organization"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 type module struct {

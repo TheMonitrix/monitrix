@@ -6,8 +6,8 @@ import (
 
 	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/common"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
 )
 
 type provider struct {
@@ -60,7 +60,9 @@ func (h *provider) BeforeQuery(ctx context.Context, _ *telemetrystore.QueryEvent
 	}
 
 	if ctx.Value("max_result_rows") != nil && ctx.Value("result_overflow_mode") != nil {
-		if maxResultRows, ok := ctx.Value("max_result_rows").(int); ok { settings["max_result_rows"] = maxResultRows }
+		if maxResultRows, ok := ctx.Value("max_result_rows").(int); ok {
+			settings["max_result_rows"] = maxResultRows
+		}
 		settings["result_overflow_mode"] = ctx.Value("result_overflow_mode")
 	}
 

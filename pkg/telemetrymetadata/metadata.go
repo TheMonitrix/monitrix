@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
-	qbtypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
+	qbtypes "github.com/ezeslucky/monitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/huandu/go-sqlbuilder"
 	"go.uber.org/zap"
 )

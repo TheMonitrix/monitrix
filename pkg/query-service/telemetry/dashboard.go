@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 	"go.uber.org/zap"
 )
 

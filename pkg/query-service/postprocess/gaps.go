@@ -3,7 +3,7 @@ package postprocess
 import (
 	"github.com/SigNoz/govaluate"
 	"github.com/ezeslucky/monitrix/pkg/query-service/common"
-	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
 )
 
 func StepIntervalForFunction(params *v3.QueryRangeParamsV3, query string) int64 {

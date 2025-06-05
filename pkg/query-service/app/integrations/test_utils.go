@@ -6,14 +6,14 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/modules/organization"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/modules/user"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
-	ruletypes "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/pipelinetypes"
+	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
 )
 
 func NewTestIntegrationsManager(t *testing.T) (*Manager, sqlstore.SQLStore) {

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	ruletypes "github.com/ezeslucky/monitrix/pkg/types/ruletypes"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 )
 
 type TaskType string

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/pipelinetypes"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/pipelinetypes"
 	"github.com/stretchr/testify/require"
 )
 

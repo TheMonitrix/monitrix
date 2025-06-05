@@ -6,10 +6,10 @@ import (
 	"time"
 
 	basemodel "github.com/ezeslucky/monitrix/pkg/query-service/model"
-	baserules "github.com/ezeslucky/monitrixitrix/pkg/query-service/rules"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
-	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	baserules "github.com/ezeslucky/monitrix/pkg/query-service/rules"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils/labels"
+	ruletypes "github.com/ezeslucky/monitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 )

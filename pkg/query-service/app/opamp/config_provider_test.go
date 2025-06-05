@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/app/opamp/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 	"github.com/knadh/koanf"
 	"github.com/knadh/koanf/parsers/yaml"
 	"github.com/knadh/koanf/providers/rawbytes"

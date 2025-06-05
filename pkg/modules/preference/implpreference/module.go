@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/preference"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/preferencetypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/modules/preference"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/preferencetypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/valuer"
 )
 
 // Do not take inspiration from this code, it is a work in progress. See Organization module for a better implementation.

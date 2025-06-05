@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/telemetrylogs"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrymetrics"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore/telemetrystoretest"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrytraces"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrymetrics"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore/telemetrystoretest"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrytraces"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	cmock "github.com/srikanthccv/ClickHouse-go-mock"
 )
 

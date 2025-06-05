@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
+	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
 )
 
 func TestBaseRule_RequireMinPoints(t *testing.T) {

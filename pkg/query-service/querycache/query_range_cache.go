@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/cache"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/errors"
-	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils/labels"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/cachetypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/errors"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/cachetypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

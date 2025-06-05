@@ -5,8 +5,8 @@ import (
 	"database/sql"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/jackc/pgx/v5/stdlib"
@@ -39,7 +39,7 @@ func NewFactory(hookFactories ...factory.ProviderFactory[sqlstore.SQLStoreHook, 
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config sqlstore.Config, hooks ...sqlstore.SQLStoreHook) (sqlstore.SQLStore, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrix/pkg/sqlstore/postgressqlstore")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrix/pkg/sqlstore/postgressqlstore")
 
 	pgConfig, err := pgxpool.ParseConfig(config.Postgres.DSN)
 	if err != nil {

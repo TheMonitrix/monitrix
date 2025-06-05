@@ -5,8 +5,8 @@ import (
 	"time"
 
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	pql "github.com/prometheus/prometheus/promql"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"

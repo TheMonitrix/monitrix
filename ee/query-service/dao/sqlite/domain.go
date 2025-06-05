@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/model"
-	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
-	ossTypes "github.com/ezeslucky/monitrixitrix/pkg/types"
+	basemodel "github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	ossTypes "github.com/ezeslucky/monitrix/pkg/types"
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 )

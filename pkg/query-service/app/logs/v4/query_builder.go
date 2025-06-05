@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	logsV3 "github.com/ezeslucky/monitrix/pkg/query-service/app/logs/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/resource"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/resource"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/constants"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 var logOperators = map[v3.FilterOperator]string{
@@ -63,7 +63,7 @@ func getClickhouseKey(key v3.AttributeKey) string {
 	}
 
 	// materialized column created from query
-	// https://github.com/ezeslucky/monitrixitrixitrixitrix/pull/4775
+	// https://github.com/ezeslucky/monitrixitrixitrix/pull/4775
 	return "`" + utils.GetClickhouseColumnNameV2(string(key.Type), string(key.DataType), key.Key) + "`"
 }
 

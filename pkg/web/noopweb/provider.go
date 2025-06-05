@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/web"
+	"github.com/ezeslucky/monitrixitrix/pkg/web"
 	"github.com/gorilla/mux"
 )
 

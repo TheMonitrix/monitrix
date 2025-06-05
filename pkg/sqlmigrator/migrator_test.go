@@ -8,11 +8,11 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/instrumentation/instrumentationtest"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration/sqlmigrationtest"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore/sqlstoretest"
+	"github.com/ezeslucky/monitrixitrix/pkg/instrumentation/instrumentationtest"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigration/sqlmigrationtest"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore/sqlstoretest"
 	"github.com/stretchr/testify/require"
 )
 

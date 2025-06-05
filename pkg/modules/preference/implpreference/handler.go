@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/modules/preference"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/types/preferencetypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/modules/preference"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/types/preferencetypes"
 	"github.com/gorilla/mux"
 )
 

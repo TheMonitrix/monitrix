@@ -19,16 +19,16 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/alertmanager"
-	"github.com/ezeslucky/monitrixitrix/pkg/apis/fields"
-	errorsV2 "github.com/ezeslucky/monitrixitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrix/pkg/http/middleware"
-	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrix/pkg/modules/quickfilter"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/cloudintegrations/services"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/metricsexplorer"
-	"github.com/ezeslucky/monitrixitrix/pkg/signoz"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/apis/fields"
+	errorsV2 "github.com/ezeslucky/monitrix/pkg/errors"
+	"github.com/ezeslucky/monitrix/pkg/http/middleware"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrix/pkg/modules/quickfilter"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/cloudintegrations/services"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/integrations"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/metricsexplorer"
+	"github.com/ezeslucky/monitrix/pkg/signoz"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	"github.com/prometheus/prometheus/promql"
 
 	"github.com/gorilla/mux"
@@ -36,40 +36,40 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/ezeslucky/monitrixitrix/pkg/cache"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/agentConf"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/cloudintegrations"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/inframetrics"
-	queues2 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations/messagingQueues/queues"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations/thirdPartyApi"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/logs"
-	logsv3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/logs/v3"
-	logsv4 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/logs/v4"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/metrics"
-	metricsv3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/metrics/v3"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/querier"
-	querierV2 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/querier/v2"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/queryBuilder"
-	tracesV3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/traces/v3"
-	tracesV4 "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/traces/v4"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/auth"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/contextlinks"
-	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/postprocess"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/pipelinetypes"
-	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrix/pkg/cache"
+	"github.com/ezeslucky/monitrix/pkg/query-service/agentConf"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/cloudintegrations"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/inframetrics"
+	queues2 "github.com/ezeslucky/monitrix/pkg/query-service/app/integrations/messagingQueues/queues"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/integrations/thirdPartyApi"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/logs"
+	logsv3 "github.com/ezeslucky/monitrix/pkg/query-service/app/logs/v3"
+	logsv4 "github.com/ezeslucky/monitrix/pkg/query-service/app/logs/v4"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/metrics"
+	metricsv3 "github.com/ezeslucky/monitrix/pkg/query-service/app/metrics/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/querier"
+	querierV2 "github.com/ezeslucky/monitrix/pkg/query-service/app/querier/v2"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/queryBuilder"
+	tracesV3 "github.com/ezeslucky/monitrix/pkg/query-service/app/traces/v3"
+	tracesV4 "github.com/ezeslucky/monitrix/pkg/query-service/app/traces/v4"
+	"github.com/ezeslucky/monitrix/pkg/query-service/auth"
+	"github.com/ezeslucky/monitrix/pkg/query-service/contextlinks"
+	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrix/pkg/query-service/postprocess"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/pkg/types/pipelinetypes"
+	ruletypes "github.com/ezeslucky/monitrix/pkg/types/ruletypes"
 
 	"go.uber.org/zap"
 
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/integrations/messagingQueues/kafka"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/app/logparsingpipeline"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/interfaces"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/rules"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/telemetry"
-	"github.com/ezeslucky/monitrixitrix/pkg/version"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/integrations/messagingQueues/kafka"
+	"github.com/ezeslucky/monitrix/pkg/query-service/app/logparsingpipeline"
+	"github.com/ezeslucky/monitrix/pkg/query-service/interfaces"
+	"github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/query-service/rules"
+	"github.com/ezeslucky/monitrix/pkg/query-service/telemetry"
+	"github.com/ezeslucky/monitrix/pkg/version"
 )
 
 type status string
@@ -285,7 +285,7 @@ func NewAPIHandler(opts APIHandlerOpts) (*APIHandler, error) {
 	return aH, nil
 }
 
-// todo(remove): Implemented at render package (github.com/ezeslucky/monitrixitrix/pkg/http/render) with the new error structure
+// todo(remove): Implemented at render package (github.com/ezeslucky/monitrix/pkg/http/render) with the new error structure
 type structuredResponse struct {
 	Data   interface{}       `json:"data"`
 	Total  int               `json:"total"`
@@ -294,13 +294,13 @@ type structuredResponse struct {
 	Errors []structuredError `json:"errors"`
 }
 
-// todo(remove): Implemented at render package (github.com/ezeslucky/monitrixitrix/pkg/http/render) with the new error structure
+// todo(remove): Implemented at render package (github.com/ezeslucky/monitrix/pkg/http/render) with the new error structure
 type structuredError struct {
 	Code int    `json:"code,omitempty"`
 	Msg  string `json:"msg"`
 }
 
-// todo(remove): Implemented at render package (github.com/ezeslucky/monitrixitrix/pkg/http/render) with the new error structure
+// todo(remove): Implemented at render package (github.com/ezeslucky/monitrix/pkg/http/render) with the new error structure
 type ApiResponse struct {
 	Status    status          `json:"status"`
 	Data      interface{}     `json:"data,omitempty"`
@@ -308,7 +308,7 @@ type ApiResponse struct {
 	Error     string          `json:"error,omitempty"`
 }
 
-// todo(remove): Implemented at render package (github.com/ezeslucky/monitrixitrix/pkg/http/render) with the new error structure
+// todo(remove): Implemented at render package (github.com/ezeslucky/monitrix/pkg/http/render) with the new error structure
 func RespondError(w http.ResponseWriter, apiErr model.BaseApiError, data interface{}) {
 	json := jsoniter.ConfigCompatibleWithStandardLibrary
 	b, err := json.Marshal(&ApiResponse{
@@ -354,7 +354,7 @@ func RespondError(w http.ResponseWriter, apiErr model.BaseApiError, data interfa
 	}
 }
 
-// todo(remove): Implemented at render package (github.com/ezeslucky/monitrixitrix/pkg/http/render) with the new error structure
+// todo(remove): Implemented at render package (github.com/ezeslucky/monitrix/pkg/http/render) with the new error structure
 func writeHttpResponse(w http.ResponseWriter, data interface{}) {
 	json := jsoniter.ConfigCompatibleWithStandardLibrary
 	b, err := json.Marshal(&ApiResponse{
@@ -478,7 +478,7 @@ func (aH *APIHandler) RegisterQueryRangeV4Routes(router *mux.Router, am *middlew
 	subRouter.HandleFunc("/metric/metric_metadata", am.ViewAccess(aH.getMetricMetadata)).Methods(http.MethodGet)
 }
 
-// todo(remove): Implemented at render package (github.com/ezeslucky/monitrixitrix/pkg/http/render) with the new error structure
+// todo(remove): Implemented at render package (github.com/ezeslucky/monitrix/pkg/http/render) with the new error structure
 func (aH *APIHandler) Respond(w http.ResponseWriter, data interface{}) {
 	writeHttpResponse(w, data)
 }

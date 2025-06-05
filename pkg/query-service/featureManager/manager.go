@@ -2,7 +2,7 @@ package featureManager
 
 import (
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
 	"go.uber.org/zap"
 )
 

@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	qbtypes "github.com/ezeslucky/monitrix/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 )
 
 func parseStrValue(valueStr string, operator qbtypes.FilterOperator) (telemetrytypes.FieldDataType, any) {

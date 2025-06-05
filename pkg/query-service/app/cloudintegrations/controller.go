@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/cloudintegrations/services"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/cloudintegrations/services"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
 	"golang.org/x/exp/maps"
 )
 

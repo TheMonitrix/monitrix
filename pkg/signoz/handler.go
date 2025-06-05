@@ -2,16 +2,16 @@ package signoz
 
 import (
 	"github.com/ezeslucky/monitrix/pkg/modules/apdex"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/apdex/implapdex"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/dashboard"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/dashboard/impldashboard"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/organization"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/organization/implorganization"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/preference"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/preference/implpreference"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/savedview"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/savedview/implsavedview"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/apdex/implapdex"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/dashboard"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/dashboard/impldashboard"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/organization"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/organization/implorganization"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/preference"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/preference/implpreference"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/savedview"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/savedview/implsavedview"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/user"
 )
 
 type Handlers struct {

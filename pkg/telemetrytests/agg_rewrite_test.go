@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/querybuilder"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrylogs"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrytraces"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrylogs"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrytraces"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/stretchr/testify/require"
 )
 

@@ -2,8 +2,8 @@ package sqlite
 
 import (
 	"github.com/ezeslucky/monitrix/pkg/modules/user"
-	"github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
 )
 
 type modelDao struct {

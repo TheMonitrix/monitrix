@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/converter"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/interfaces"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
-	qslabels "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils/labels"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	ruletypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/ruletypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/interfaces"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrix/pkg/query-service/model/v3"
+	qslabels "github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 	"go.uber.org/zap"
 )
 

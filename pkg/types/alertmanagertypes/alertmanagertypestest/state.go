@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/alertmanagertypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/alertmanagertypes"
 )
 
 var _ alertmanagertypes.StateStore = (*StateStore)(nil)

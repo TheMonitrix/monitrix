@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/http/middleware"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/web"
+	"github.com/ezeslucky/monitrixitrix/pkg/http/middleware"
+	"github.com/ezeslucky/monitrixitrix/pkg/web"
 	"github.com/gorilla/mux"
 )
 

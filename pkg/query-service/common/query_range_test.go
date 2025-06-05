@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/querycache"
+	"github.com/ezeslucky/monitrix/pkg/query-service/querycache"
 )
 
 func TestFilterSeriesPoints(t *testing.T) {

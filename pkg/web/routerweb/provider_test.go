@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/factory/factorytest"
-	"github.com/ezeslucky/monitrixitrix/pkg/web"
+	"github.com/ezeslucky/monitrix/pkg/web"
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

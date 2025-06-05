@@ -10,14 +10,14 @@ import (
 	"sync"
 
 	baseconstants "github.com/ezeslucky/monitrix/pkg/query-service/constants"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/zeus"
 
-	validate "github.com/ezeslucky/monitrixitrix/ee/query-service/integrations/signozio"
-	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
-	basemodel "github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/telemetry"
+	validate "github.com/ezeslucky/monitrix/ee/query-service/integrations/signozio"
+	"github.com/ezeslucky/monitrix/ee/query-service/model"
+	basemodel "github.com/ezeslucky/monitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/query-service/telemetry"
 	"go.uber.org/zap"
 )
 

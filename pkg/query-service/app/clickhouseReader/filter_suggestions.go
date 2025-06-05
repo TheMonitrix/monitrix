@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix-otel-collector/utils/fingerprint"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
 	"go.uber.org/zap"
 )
 

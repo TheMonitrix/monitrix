@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ezeslucky/monitrix/pkg/errors"
-	grammar "github.com/ezeslucky/monitrixitrix/pkg/parser/grammar"
-	qbtypes "github.com/ezeslucky/monitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/antlr4-go/antlr/v4"
+	"github.com/ezeslucky/monitrix/pkg/errors"
+	grammar "github.com/ezeslucky/monitrix/pkg/parser/grammar"
+	qbtypes "github.com/ezeslucky/monitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
 
 	sqlbuilder "github.com/huandu/go-sqlbuilder"
 )

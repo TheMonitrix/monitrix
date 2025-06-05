@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
 )
 
 type InstalledIntegrationsRepo interface {

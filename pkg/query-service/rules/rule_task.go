@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/common"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/labels"
-	ruletypes "github.com/ezeslucky/monitrixitrix/pkg/types/ruletypes"
-	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils/labels"
+	ruletypes "github.com/ezeslucky/monitrix/pkg/types/ruletypes"
+	"github.com/ezeslucky/monitrix/pkg/valuer"
 	opentracing "github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 )

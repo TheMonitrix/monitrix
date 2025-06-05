@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	v3 "github.com/ezeslucky/monitrix/pkg/query-service/model/v3"
-	format "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	format "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 // generateOverviewSQL builds the ClickHouse SQL query with optional filters.

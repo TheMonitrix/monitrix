@@ -3,16 +3,17 @@ package metricsexplorer
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gorilla/mux"
 	"net/http"
 	"strconv"
 
+	"github.com/gorilla/mux"
+
 	"github.com/ezeslucky/monitrix/pkg/query-service/constants"
 
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
 
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/metrics_explorer"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/metrics_explorer"
 )
 
 func ParseFilterKeySuggestions(r *http.Request) (*metrics_explorer.FilterKeyRequest, *model.ApiError) {

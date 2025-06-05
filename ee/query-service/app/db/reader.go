@@ -6,10 +6,10 @@ import (
 	"github.com/ClickHouse/clickhouse-go/v2"
 
 	"github.com/ezeslucky/monitrix/pkg/cache"
-	"github.com/ezeslucky/monitrixitrix/pkg/prometheus"
-	basechr "github.com/ezeslucky/monitrixitrix/pkg/query-service/app/clickhouseReader"
-	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrix/pkg/prometheus"
+	basechr "github.com/ezeslucky/monitrix/pkg/query-service/app/clickhouseReader"
+	"github.com/ezeslucky/monitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrix/pkg/telemetrystore"
 )
 
 type ClickhouseReader struct {

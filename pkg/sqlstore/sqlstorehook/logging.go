@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
 	"github.com/uptrace/bun"
 )
 
@@ -22,7 +22,7 @@ func NewLoggingFactory() factory.ProviderFactory[sqlstore.SQLStoreHook, sqlstore
 
 func NewLogging(ctx context.Context, providerSettings factory.ProviderSettings, config sqlstore.Config) (sqlstore.SQLStoreHook, error) {
 	return &logging{
-		logger: factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore/sqlstorehook").Logger(),
+		logger: factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrix/pkg/sqlstore/sqlstorehook").Logger(),
 		level:  slog.LevelDebug,
 	}, nil
 }

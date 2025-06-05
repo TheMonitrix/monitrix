@@ -16,14 +16,14 @@ import (
 	"time"
 
 	"github.com/ezeslucky/monitrix/pkg/prometheus"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/metrics_explorer"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/telemetrystore"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/metrics_explorer"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"github.com/uptrace/bun"
 
-	errorsV2 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/errors"
+	errorsV2 "github.com/ezeslucky/monitrixitrixitrix/pkg/errors"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
@@ -32,25 +32,25 @@ import (
 
 	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/cache"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/authtypes"
 
 	"go.uber.org/zap"
 
-	queryprogress "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/clickhouseReader/query_progress"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/logs"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/resource"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/services"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/traces/smart"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/traces/tracedetail"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/common"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/constants"
-	chErrors "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/metrics"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/telemetry"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	queryprogress "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/clickhouseReader/query_progress"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/logs"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/resource"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/services"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/traces/smart"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/traces/tracedetail"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/common"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/constants"
+	chErrors "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/errors"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/metrics"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/telemetry"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 const (
@@ -1306,7 +1306,7 @@ func (r *ClickHouseReader) setTTLLogs(ctx context.Context, orgID string, params 
 	// set the ttl if nothing is pending/ no errors
 	go func(ttlPayload map[string]string) {
 		for tableName, query := range ttlPayload {
-			// https://github.com/ezeslucky/monitrixitrixitrixitrix/issues/5470
+			// https://github.com/ezeslucky/monitrixitrixitrix/issues/5470
 			// we will change ttl for only the new parts and not the old ones
 			query += " SETTINGS materialize_ttl_after_modify=0"
 

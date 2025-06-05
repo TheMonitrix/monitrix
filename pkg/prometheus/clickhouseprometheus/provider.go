@@ -3,9 +3,9 @@ package clickhouseprometheus
 import (
 	"context"
 
-	"github.com/ezeslucky/monitrixitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/prometheus"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/prometheus"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/telemetrystore"
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/storage"
@@ -30,7 +30,7 @@ func NewFactory(telemetryStore telemetrystore.TelemetryStore) factory.ProviderFa
 }
 
 func New(ctx context.Context, providerSettings factory.ProviderSettings, config prometheus.Config, telemetryStore telemetrystore.TelemetryStore) (prometheus.Prometheus, error) {
-	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/prometheus/clickhouseprometheus")
+	settings := factory.NewScopedProviderSettings(providerSettings, "github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/prometheus/clickhouseprometheus")
 
 	readClient := NewReadClient(settings, telemetryStore)
 

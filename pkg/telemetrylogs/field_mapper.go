@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	schema "github.com/ezeslucky/monitrix-otel-collector/cmd/signozschemamigrator/schema_migrator"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/errors"
-	qbtypes "github.com/ezeslucky/monitrixitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/errors"
+	qbtypes "github.com/ezeslucky/monitrixitrix/pkg/types/querybuildertypes/querybuildertypesv5"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 
 	"golang.org/x/exp/maps"
 )

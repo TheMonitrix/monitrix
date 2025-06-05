@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrix/pkg/types"
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
 )

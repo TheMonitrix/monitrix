@@ -4,19 +4,19 @@ import (
 	"context"
 
 	"github.com/ezeslucky/monitrix/pkg/alertmanager"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/cache"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/factory"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/instrumentation"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/prometheus"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigration"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlmigrator"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/sqlstore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/telemetrystore"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/version"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/zeus"
+	"github.com/ezeslucky/monitrixitrix/pkg/cache"
+	"github.com/ezeslucky/monitrixitrix/pkg/factory"
+	"github.com/ezeslucky/monitrixitrix/pkg/instrumentation"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrix/pkg/prometheus"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigration"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlmigrator"
+	"github.com/ezeslucky/monitrixitrix/pkg/sqlstore"
+	"github.com/ezeslucky/monitrixitrix/pkg/telemetrystore"
+	"github.com/ezeslucky/monitrixitrix/pkg/version"
+	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
 
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/web"
+	"github.com/ezeslucky/monitrixitrix/pkg/web"
 )
 
 type SigNoz struct {
@@ -31,6 +31,18 @@ type SigNoz struct {
 	Zeus            zeus.Zeus
 	Modules         Modules
 	Handlers        Handlers
+}
+
+func (s *SigNoz) Stop(context context.Context) error {
+	panic("unimplemented")
+}
+
+func (s *SigNoz) Wait(context context.Context) any {
+	panic("unimplemented")
+}
+
+func (s *SigNoz) Start(context context.Context) {
+	panic("unimplemented")
 }
 
 func New(

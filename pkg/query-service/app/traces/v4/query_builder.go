@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/app/resource"
-	tracesV3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/traces/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	tracesV3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/traces/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/constants"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
 const NANOSECOND = 1000000000

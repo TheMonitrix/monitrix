@@ -2,7 +2,7 @@ package configtest
 
 import (
 	"github.com/ezeslucky/monitrix/pkg/config"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrixitrix/pkg/config/envprovider"
+	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/config/envprovider"
 )
 
 func NewResolverConfig() config.ResolverConfig {

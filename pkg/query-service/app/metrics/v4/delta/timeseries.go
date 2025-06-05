@@ -4,12 +4,12 @@ import (
 	"fmt"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/app/metrics/v4/helpers"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/constants"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
 )
 
-// TODO(srikanthccv): support multiple quantiles; see https://github.com/ezeslucky/monitrixitrixitrixitrix/issues/4016#issuecomment-1838583305
+// TODO(srikanthccv): support multiple quantiles; see https://github.com/ezeslucky/monitrixitrixitrix/issues/4016#issuecomment-1838583305
 var (
 	sketchFmt = "quantilesDDMerge(0.01, %f)(sketch)[1]"
 )

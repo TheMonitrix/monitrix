@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 
 	"github.com/ezeslucky/monitrix/pkg/query-service/app/opamp"
-	filterprocessor "github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/query-service/app/opamp/otelconfig/filterprocessor"
-	tsp "github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/query-service/app/opamp/otelconfig/tailsampler"
-	"github.com/ezeslucky/monitrixitrixitrixitrixitrix/pkg/query-service/model"
+	filterprocessor "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/opamp/otelconfig/filterprocessor"
+	tsp "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/opamp/otelconfig/tailsampler"
+	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"

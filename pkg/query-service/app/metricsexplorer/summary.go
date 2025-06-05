@@ -11,13 +11,13 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/ezeslucky/monitrix/pkg/modules/dashboard"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/interfaces"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/metrics_explorer"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/rules"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/types/authtypes"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/interfaces"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/metrics_explorer"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/rules"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	schema "github.com/ezeslucky/monitrix-otel-collector/cmd/signozschemamigrator/schema_migrator"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types/telemetrytypes"
+	"github.com/ezeslucky/monitrixitrix/pkg/errors"
+	"github.com/ezeslucky/monitrixitrix/pkg/types/telemetrytypes"
 	"github.com/huandu/go-sqlbuilder"
 )
 

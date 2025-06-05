@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/errors"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
 	"github.com/stretchr/testify/require"
 )
 

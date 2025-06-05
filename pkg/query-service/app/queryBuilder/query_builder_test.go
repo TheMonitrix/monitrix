@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	logsV3 "github.com/ezeslucky/monitrix/pkg/query-service/app/logs/v3"
-	logsV4 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/logs/v4"
-	metricsv3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/app/metrics/v3"
-	"github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/constants"
-	v3 "github.com/ezeslucky/monitrixitrixitrixitrix/pkg/query-service/model/v3"
+	logsV4 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/logs/v4"
+	metricsv3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/app/metrics/v3"
+	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/constants"
+	v3 "github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model/v3"
 	"github.com/stretchr/testify/require"
 )
 

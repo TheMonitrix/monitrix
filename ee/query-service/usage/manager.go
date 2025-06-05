@@ -15,10 +15,10 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/dao"
-	"github.com/ezeslucky/monitrixitrix/ee/query-service/license"
-	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils/encryption"
-	"github.com/ezeslucky/monitrixitrix/pkg/zeus"
+	"github.com/ezeslucky/monitrix/ee/query-service/license"
+	"github.com/ezeslucky/monitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/query-service/utils/encryption"
+	"github.com/ezeslucky/monitrix/pkg/zeus"
 )
 
 const (

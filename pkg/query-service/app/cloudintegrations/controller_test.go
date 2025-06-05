@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/ezeslucky/monitrix/pkg/modules/organization"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/organization/implorganization"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/modules/user/impluser"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/model"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/query-service/utils"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/types"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/organization/implorganization"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/user"
+	"github.com/ezeslucky/monitrixitrix/pkg/modules/user/impluser"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/model"
+	"github.com/ezeslucky/monitrixitrix/pkg/query-service/utils"
+	"github.com/ezeslucky/monitrixitrix/pkg/types"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 )

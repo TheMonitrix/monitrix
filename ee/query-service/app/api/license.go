@@ -6,11 +6,11 @@ import (
 	"net/http"
 
 	"github.com/ezeslucky/monitrix/ee/query-service/constants"
-	"github.com/ezeslucky/monitrixitrix/ee/query-service/integrations/signozio"
-	"github.com/ezeslucky/monitrixitrix/ee/query-service/model"
-	"github.com/ezeslucky/monitrixitrix/pkg/http/render"
-	"github.com/ezeslucky/monitrixitrix/pkg/query-service/telemetry"
-	"github.com/ezeslucky/monitrixitrix/pkg/types/authtypes"
+	"github.com/ezeslucky/monitrix/ee/query-service/integrations/signozio"
+	"github.com/ezeslucky/monitrix/ee/query-service/model"
+	"github.com/ezeslucky/monitrix/pkg/http/render"
+	"github.com/ezeslucky/monitrix/pkg/query-service/telemetry"
+	"github.com/ezeslucky/monitrix/pkg/types/authtypes"
 )
 
 type DayWiseBreakdown struct {

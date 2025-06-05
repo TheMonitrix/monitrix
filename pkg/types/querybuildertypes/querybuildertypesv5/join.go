@@ -2,7 +2,7 @@ package querybuildertypesv5
 
 import (
 	"github.com/ezeslucky/monitrix/pkg/types/telemetrytypes"
-	"github.com/ezeslucky/monitrixitrixitrix/pkg/valuer"
+	"github.com/ezeslucky/monitrixitrix/pkg/valuer"
 )
 
 // JoinType is the SQL‐style join operator.
